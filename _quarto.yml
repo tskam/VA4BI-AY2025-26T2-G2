@@ -16,10 +16,12 @@ website:
           href: "DataVis/DataVis1.html"
         - text: "DataVis Makeover 2"
           href: "DataVis/DataVis2.html"
-        - text: "DataVis Makeover 3"
-          href: "DataVis/DataVis3.html"
-    - text: "Assignment"
-      href: Assignment.html
+    - text: "Assignments"
+      menu: 
+        - text: "Assignment 1"
+          href: "Assign/Assign1.html"
+        - text: "Assignment 2"
+          href: "Assign/Assign2.html"
     - text: "Visual Analytics Project"
       href: VAproject.html
 
