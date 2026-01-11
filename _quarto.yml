@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "IS428"
+  navbar:
+    background: "#e0ae24"
+    left:
+    - text: "Syllabus"
+      href: syllabus.html
+    - text: "Lesson Plan"
+      href: lesson.html
+    - text: "DataVis Makeover"
+      menu:
+        - text: "DataVis Makeover 1"
+          href: "DataVis/DataVis1.html"
+        - text: "DataVis Makeover 2"
+          href: "DataVis/DataVis2.html"
+        - text: "DataVis Makeover 3"
+          href: "DataVis/DataVis3.html"
+    - text: "Assignment"
+      href: Assignment.html
+    - text: "Visual Analytics Project"
+      href: VAproject.html
+
+    right:
+    - text: "Tableau Resources"
+      href: Tableau.html
+    - text: "Home"
+      href: index.html
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+editor: visual
+

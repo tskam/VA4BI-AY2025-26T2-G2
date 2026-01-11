@@ -1,0 +1,126 @@
+---
+title: "Visual Analytics Project"
+date: "January 1, 2026"
+date-modified: "last-modified"
+format: html
+editor: visual
+---
+
+# Putting Concepts, Methods and Principles into Practice
+
+## Overview
+
+The purpose of this project is to provide you with first-hand experience on collecting, processing and analysing large business data using real world data. A project may involve developing new methods or implementing visual analytics system to support analytic tasks in specific domains. Alternatively, a project may be in the form of application development by integrating analytical tools within a visual analytics environment. You are encouraged to focus on research topics that are relevant to your field of study. It should address a concrete visual analytics problem and should propose a novel and creative solution.
+
+The project is to be done in a team. You are required to form a project team of 2-3 members by the end of second week of the academic term. Each project team must start thinking about their project ideas from third week onward. You are expected to discuss your project topic and scope of works with the instructor before week 7 of the academic term. A project website must be prepared and published on Netlify by the end of week 8.
+
+In week 14, all project teams will give a poster presentation outlining the motivation of the project, design principles, implementation process, analytical methods used and findings of their project. By the end of week 14, students are also required to submit the final artifact and the project report. 
+
+## Project Topic
+
+TBC
+
+## Project Management
+
+The project is team work. Students are required to form a project team of **2-3** members by the first week of the academic term.
+
+A good group project is a system consisting of a collection of well defined sub-modules. Each sub-module should be the responsibility of one person and be clearly identified as their project. A good criteria for whether you should work in a group is whether the system as a whole is greater than the sum of its parts!
+
+## Project Milestone
+
+-   Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.
+-   Editing and publishing project proposal on Netlify latest by the end of **8th March 2026 at 11:59pm (mid-night)**.
+-   Uploading project poster on eLearn by **8th April 2026 (Wednesday) at 11:59pm (mid-night)**.
+-   Poster presentation: **13th April 2026 (Monday), 12:00pm-2:00pm**
+-   Submission of Visual Analytics Project repository, project website repository, project poster, Minutes of Meeting and Peer Evaluation: **19th April 2026 (Sunday) by 11:59pm (mid-night)**
+
+## Project Deliverable
+
+### Project Website
+
+At the beginning of the project, project teams are required to create a project website by using [Quarto](https://quarto.org/docs/websites/). The project website should include, beside others, project overview, prototypes, storyboards, analysis and results, poster and user guide. The project website repository must be uploaded on github and publish on [Netlify](https://www.netlify.com/). Git must be used to maintain a complete project version control including the application and project documents. By the end of the project, the project team must pack the final version of the Github repository and upload onto eLearn for final submission. The Github link also must be provided on eLearn.
+
+### Minutes of Meeting
+
+Each project team are required to maintain a comprehensive *Minutes of Meeting* from the beginning of the project until the end of the project. Each minutes of meeting should include but not limit to the discussion, disagreements, and consensus made and action items agreed within the team. The Minutes of Meeting should also record the division of labour and the considerations involved in the decision made.
+
+The following links provided useful guides on how to prepare the minutes of a meeting:
+
+1.  [How to Write Meeting Minutes: Examples + Best Practices](https://fellow.app/blog/meetings/meeting-minutes-example-and-best-practices/)
+2.  [How To Write Effective Meeting Minutes(with Templates and Samples)](https://www.wildapricot.com/blog/how-to-write-meeting-minutes)
+
+The Minutes of Meeting must be uploaded on eLearn within 24hrs after the meeting ended.
+
+### Poster
+
+The project poster should provide an overview of your project. It should include, but not limited to the following information:
+
+-   Issues and problems - A clear statement of the issues or/and problems your project addresses.
+
+-   Motivation - An explanation of why the issues and/or problems are interesting and what make them difficult to solve.
+
+-   Approach - A description of the techniques or algorithms you used to solve the problem.
+
+-   Results - Screenshots and a working demo of the system you built.
+
+-   Future Work - An explanation of how the work could be extended.
+
+The dimensions for the poster must conform to the International Standards Organization (ISO) poster size format (A1).
+
+-   Size = ISO A1 (594 × 841mm or 23.39 × 33.11 inci)
+-   Resolution = 300dpi or above
+-   Image dimension at 300 dpi: 7,016 x 9,933 pixels
+-   File format = jpeg
+
+Please ensure that the poster is in high resolution.
+
+**Note:** The poster will be considered a final deliverable, so don't forget to apply good visual design and data visualisation principles and best practice to your poster.
+
+### Peer Evaluation
+
+During the townhall presentation, students are required to visit at least **three** poster booths and evaluate the Shiny applications designed and developed by them. By the end of the poster presentation, each project team are required to submit, as a group, three peer evaluation reports in a single MS Word file. The peer evaluation template can be found on eLearn.
+
+### Final Deliverables
+
+The final deliverable will include:
+
+-   Publishing Visual Analytics Project wbesite on Netlify.
+-   Upload the artifact including but not limited to Tableau file, data and Quarto documents on eLearn.
+-   User Guide - Step-by-step guide on how to use the data visualisation functions designed.
+-   Project poster
+-   Minutes of Meeting
+
+The final deliverable must be uploaded into the Dropbox of e-Learn (e.g. LMS). It must in a **single zip** file format. If the file size is beyond the file size allocated by eLean, it can be uploaded on SMU OneDrive.
+
+## Grading
+
+The visual analytics project will account for 30% of your final grade in the course. The distribution of marks for each stage of the project are as follows:
+
+-   Project website 15%
+-   Poster 10%
+-   Minutes of Meeting 10%
+-   Peer Evaluation 15%
+-   Visual Analytics Project 50%
+
+The course instructor will consider strongly the novelty of the idea (If it has never been done before, you will get lots of credit!), how it addresses the problem at hand, the methodology you employ in doing the research, and your technical skill in implementing the idea.
+
+### Grading criteria for poster
+
+The poster will be graded based on the following criteria:
+
+-   Clear communication of key aspects of solution
+-   Clear communication of design approaches
+-   Clear communication of arguments for proposed solution
+-   Craft quality of the solution
+
+## Sample Projects
+
+Note that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application
+
+- [IS428 Year 2016-17 Term 1](https://wiki.smu.edu.sg/1617t1is428g1/Project_Groups)
+- [IS428 Year 2017-18 Term 1](https://wiki.smu.edu.sg/1718t1is428g1/Project_Groups)
+- [IS428 Year 2018-19 Term 1](https://wiki.smu.edu.sg/18191is428g1/Project_Groups)
+
+# Q & A
+
+If you have any question, please post it on Piazza.

@@ -1,0 +1,31 @@
+---
+title: "Lesson 9: Visualising and Analysing Text Data"
+date: "January 1, 2026"
+date-modified: "last-modified"
+format: html
+editor: visual
+---
+
+## Content
+
+-   Introduction to text data and text visualisation
+-   Text Visualisation methods:
+    -   Tag Cloud
+    -   Wordle
+    -   Word Tree
+    -   Phrase Nets
+-   Text Visualisation in R
+    -   textplot
+    -   LDAVis
+    -   quanteda
+
+## Lesson Slides and Hands-on Notes
+
+-   [Lesson 9: Visualising and Analysing Text Data]() slides.
+
+## Readings
+
+### Core Readings
+
+-   [Fun with Text Visualization](http://campusguides.lib.utah.edu/content.php?pid=78288&sid=579667)
+-   [The pros and cons of word clouds as visualizations](https://www.visioncritical.com/pros-and-cons-word-clouds-visualizations/)
