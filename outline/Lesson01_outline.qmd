@@ -19,7 +19,7 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 1: Introduction to Visual Analytics]().
+-   [Lesson 1: Introduction to Visual Analytics](../lesson/Lesson01/Lesson01-VA4BI.html).
 
 ## Self-reading Before Lesson
 
