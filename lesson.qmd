@@ -4,7 +4,7 @@ editor: visual
 ---
 
 | Week | Date | Topic | Remarks |
-|------------------|------------------|-------------------|------------------|
+|----|----|----|----|
 | 1 | 12/1/2026 | [Lesson 1: Introduction to Visual Analytics](outline/lesson01_outline.html) |  |
 | 2 | 19/1/2026 | [Lesson 2: Designing Graphs to Enlighten](outline/lesson02_outline.html) |  |
 | 3 | 26/1/2026 | [Lesson 3: Analytical Interactive and Animation](outline/lesson03_outline.html) |  |
