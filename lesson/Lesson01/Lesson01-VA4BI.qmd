@@ -387,7 +387,13 @@ Recently, there are two well developed web-based data visualisation designed spe
 ## Highly recommended blogs
 
 -   [Perceptual Edge](https://www.perceptualedge.com/)
--   [Junk Charts](http://junkcharts.typepad.com/junk_charts/)
+-   [Junk Charts](https://www.junkcharts.com/)
+-   [Statistical Graphics and more](http://www.theusrus.de/blog/) 
+-   [EagerEyes](http://eagereyes.org/)
+-   [Visualizing Economics](http://visualizingeconomics.com/)
+-   [The Global Sociology Blog](http://globalsociology.com/) 
+
+
 
 ::: notes
 This slide provides you the links to two highly recommended data visualisation blogs. I strongly encourage students to visit bookmark them and visit them often not only during these course but also when you go our to practice.
