@@ -14,9 +14,9 @@ editor: visual
 -   Interactive analytics best practices
 -   Animation: Principles, Methods and Best Practices
 
-## Lesson Slides and Hands-on Notes
+## Lesson Slides
 
--   [Lesson 3:Analytical Interaction and Animation](/lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html)
+-   [Lesson 3: Analytical Interaction and Animation](/lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html)
 
 ## Readings
 
