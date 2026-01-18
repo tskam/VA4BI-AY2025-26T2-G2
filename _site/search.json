@@ -191,49 +191,49 @@
   {
     "objectID": "outline/Lesson03_outline.html",
     "href": "outline/Lesson03_outline.html",
-    "title": "Lesson 3: Interactivity in Visual Analytics: Principles and Methods",
+    "title": "Lesson 3: Analytical Interaction and Animation",
     "section": "",
-    "text": "Different types of interaction techniquee\nThe role of Interaction in visual analytics\nThe concept of linked multiple views\nInteractive analytics best practices"
+    "text": "Different types of interaction techniquee\nThe role of Interaction in visual analytics\nThe concept of linked multiple views\nInteractive analytics best practices\nAnimation: Principles, Methods and Best Practices"
   },
   {
     "objectID": "outline/Lesson03_outline.html#content",
     "href": "outline/Lesson03_outline.html#content",
-    "title": "Lesson 3: Interactivity in Visual Analytics: Principles and Methods",
+    "title": "Lesson 3: Analytical Interaction and Animation",
     "section": "",
-    "text": "Different types of interaction techniquee\nThe role of Interaction in visual analytics\nThe concept of linked multiple views\nInteractive analytics best practices"
+    "text": "Different types of interaction techniquee\nThe role of Interaction in visual analytics\nThe concept of linked multiple views\nInteractive analytics best practices\nAnimation: Principles, Methods and Best Practices"
   },
   {
     "objectID": "outline/Lesson03_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson03_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 3: Interactivity in Visual Analytics: Principles and Methods",
+    "title": "Lesson 3: Analytical Interaction and Animation",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 3:Interactivity in Visual Analytics"
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 3:Animation: Principles and Best Practices"
   },
   {
     "objectID": "outline/Lesson03_outline.html#readings",
     "href": "outline/Lesson03_outline.html#readings",
-    "title": "Lesson 3: Interactivity in Visual Analytics: Principles and Methods",
+    "title": "Lesson 3: Analytical Interaction and Animation",
     "section": "Readings",
     "text": "Readings\n\nCore readings\n\nDynamics for Visual Analysis\nAnimated Transitions in Statistical Data Graphics, IEEE Transactions on Visualization and Computer Graphics, Vol. 13, No. 6, 1240-1247 and the video\nCoordinated Highlighting in Context\nCartographic Interaction Primitive: Framework and Synthesis"
   },
   {
     "objectID": "outline/Lesson03_outline.html#optional-readings",
     "href": "outline/Lesson03_outline.html#optional-readings",
-    "title": "Lesson 3: Interactivity in Visual Analytics: Principles and Methods",
+    "title": "Lesson 3: Analytical Interaction and Animation",
     "section": "Optional readings",
     "text": "Optional readings\n\nEnhancing Visual Analysis by Linking Multiple Views of Data\nThe Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations\nThe Sunrest Path to Visual Discovery\nToward a Deeper Understanding of the Role of Interaction in Information Visualization\nSnap-together visualization: can users construct and operate coordinated visualizations?\nGeneralized Selection via Interactive Query Relaxation\nBrushing"
   },
   {
     "objectID": "outline/Lesson03_outline.html#all-about-tableau",
     "href": "outline/Lesson03_outline.html#all-about-tableau",
-    "title": "Lesson 3: Interactivity in Visual Analytics: Principles and Methods",
+    "title": "Lesson 3: Analytical Interaction and Animation",
     "section": "All About Tableau",
     "text": "All About Tableau\n\nSorting\nDrill Down and Hierarchies\nWays to Filter\nUsing the Filter Shelf\nInteractive Filters\nWhere Tableau Filters\nAdditional Filtering Topics\nParameters\nParameter Actions\nBasic Tooltips\nViz in Tooltip\nDashboard Interactivity Using Actions\nCreate data that moves you with viz animations\nThe benefits of animating your data visualisations\nTableau in Motion: Tableau’s New Native Viz Animations\nHow to use Animations in Tableau 2020.1"
   },
   {
     "objectID": "outline/Lesson03_outline.html#visual-analytics-methods-of-the-week",
     "href": "outline/Lesson03_outline.html#visual-analytics-methods-of-the-week",
-    "title": "Lesson 3: Interactivity in Visual Analytics: Principles and Methods",
+    "title": "Lesson 3: Analytical Interaction and Animation",
     "section": "Visual Analytics Method(s) of the Week",
     "text": "Visual Analytics Method(s) of the Week\n\nScatterplot with marginal Distribution\n\nScatter Plots with Marginal Densities – An Example for Doing Exploratory Data Analysis with Tableau and R\nGot a Scatter Plot? Learn How to Add Marginal Histograms\nHow to Make Marginal Histograms and Bar Charts in Tableau\nMarginal Histograms — They’re Not Just for Scatterplots"
   },
@@ -866,5 +866,138 @@
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Highly recommended blog",
     "text": "Highly recommended blog\n\nJunk Charts\nPerceptual Edge\nEagerEyes\nStatistical Graphics and more\nVisualizing data\nVisualizing Economics"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#what-will-you-learn-from-this-lesson",
+    "href": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#what-will-you-learn-from-this-lesson",
+    "title": "Lesson 3: Interactivity in Visual Analytics",
+    "section": "What will you learn from this lesson?",
+    "text": "What will you learn from this lesson?\n\n\nTypology of Interactive Techniques\n\nData & view specification\nView Manipulation\nProcess and Provenance\n\nInteractive Design Primitive\nAnimation: Principles and Best Practices"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#building-block-of-visual-analytics",
+    "href": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#building-block-of-visual-analytics",
+    "title": "Lesson 3: Interactivity in Visual Analytics",
+    "section": "Building Block of Visual Analytics",
+    "text": "Building Block of Visual Analytics"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#taxonomy-of-interactive-dynamics",
+    "href": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#taxonomy-of-interactive-dynamics",
+    "title": "Lesson 3: Interactivity in Visual Analytics",
+    "section": "Taxonomy of Interactive Dynamics",
+    "text": "Taxonomy of Interactive Dynamics\n\n\nSource: Heer, J. & Shneiderman, B. (2012) “Interactive Dynamics for Visual Analytics” ACM Queue, Vol. 55, No. 4, pp 45-54."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#process-and-provenance",
+    "href": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#process-and-provenance",
+    "title": "Lesson 3: Interactivity in Visual Analytics",
+    "section": "Process and Provenance",
+    "text": "Process and Provenance\n\n\nRecord analysis histories for revisitation, review and sharing.\nAnnotate patterns to determine findings.\nShare views and annotations to enable collaboration.\nGuide users through analysis tasks or stories.\n\n\n\nVisual analytics is not limited to the generation and manipulation of visualizations—it involves a process of iterative data exploration and interpretation. As a result, visual analytics tools that provide facilities for scaffolding the analysis process will be more widely adopted. Tools should preserve analytic provenance by keeping a record of analyst actions and insights so that the history of work can be reviewed and refined."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#interactive-design-primitive",
+    "href": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#interactive-design-primitive",
+    "title": "Lesson 3: Interactivity in Visual Analytics",
+    "section": "Interactive Design Primitive",
+    "text": "Interactive Design Primitive\nA framework for effective interactive design in visual analytics application.\n\n\nSource: Roth, R.E. (2012) “Cartographic Interaction Primitive: Framework and Synthesis”. The Cartographic Journal, Vol. 49, No. 4 pp. 376-395."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#interactive-design-primitive-1",
+    "href": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#interactive-design-primitive-1",
+    "title": "Lesson 3: Interactivity in Visual Analytics",
+    "section": "Interactive Design Primitive",
+    "text": "Interactive Design Primitive\n\n\nVisual Analytics Objective Primitives\n\n\nInteractive Analytics Operator Primitives"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#interactive-design-primitive-2",
+    "href": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#interactive-design-primitive-2",
+    "title": "Lesson 3: Interactivity in Visual Analytics",
+    "section": "Interactive Design Primitive",
+    "text": "Interactive Design Primitive"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#animation-in-visual-analytics",
+    "href": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#animation-in-visual-analytics",
+    "title": "Lesson 3: Interactivity in Visual Analytics",
+    "section": "Animation in Visual Analytics",
+    "text": "Animation in Visual Analytics\n\n\n\nThe purpose of animation is to facilitate perception of changes when transitioning between related data graphics\nDo not confine to time-series data only\n\n\n\n\nSource: How Many Households"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#references",
+    "href": "lesson/Lesson03/Lesson03-Interactivity in Visual Analytics.html#references",
+    "title": "Lesson 3: Interactivity in Visual Analytics",
+    "section": "References",
+    "text": "References\n\nDynamics for Visual Analysis\nAnimated Transitions in Statistical Data Graphics, IEEE Transactions on Visualization and Computer Graphics, Vol. 13, No. 6, 1240-1247 and the video\nCoordinated Highlighting in Context\nCartographic Interaction Primitive: Framework and Synthesis"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#what-will-you-learn-from-this-lesson",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#what-will-you-learn-from-this-lesson",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "What will you learn from this lesson?",
+    "text": "What will you learn from this lesson?\n\n\nTypology of Interactive Techniques\n\nData & view specification\nView Manipulation\nProcess and Provenance\n\nInteractive Design Primitive\nAnimation: Principles and Best Practices"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#building-block-of-visual-analytics",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#building-block-of-visual-analytics",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "Building Block of Visual Analytics",
+    "text": "Building Block of Visual Analytics"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#taxonomy-of-interactive-dynamics",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#taxonomy-of-interactive-dynamics",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "Taxonomy of Interactive Dynamics",
+    "text": "Taxonomy of Interactive Dynamics\n\n\nSource: Heer, J. & Shneiderman, B. (2012) “Interactive Dynamics for Visual Analytics” ACM Queue, Vol. 55, No. 4, pp 45-54."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#process-and-provenance",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#process-and-provenance",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "Process and Provenance",
+    "text": "Process and Provenance\n\n\nRecord analysis histories for revisitation, review and sharing.\nAnnotate patterns to determine findings.\nShare views and annotations to enable collaboration.\nGuide users through analysis tasks or stories.\n\n\n\nVisual analytics is not limited to the generation and manipulation of visualizations—it involves a process of iterative data exploration and interpretation. As a result, visual analytics tools that provide facilities for scaffolding the analysis process will be more widely adopted. Tools should preserve analytic provenance by keeping a record of analyst actions and insights so that the history of work can be reviewed and refined."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#interactive-design-primitive",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#interactive-design-primitive",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "Interactive Design Primitive",
+    "text": "Interactive Design Primitive\nA framework for effective interactive design in visual analytics application.\n\n\nSource: Roth, R.E. (2012) “Cartographic Interaction Primitive: Framework and Synthesis”. The Cartographic Journal, Vol. 49, No. 4 pp. 376-395."
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#interactive-design-primitive-1",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#interactive-design-primitive-1",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "Interactive Design Primitive",
+    "text": "Interactive Design Primitive\n\n\nVisual Analytics Objective Primitives\n\n\nInteractive Analytics Operator Primitives"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#interactive-design-primitive-2",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#interactive-design-primitive-2",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "Interactive Design Primitive",
+    "text": "Interactive Design Primitive"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#animation-in-visual-analytics",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#animation-in-visual-analytics",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "Animation in Visual Analytics",
+    "text": "Animation in Visual Analytics\n\n\n\nThe purpose of animation is to facilitate perception of changes when transitioning between related data graphics\nDo not confine to time-series data only\n\n\n\n\nSource: How Many Households"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#references",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#references",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "References",
+    "text": "References\n\nDynamics for Visual Analysis\nAnimated Transitions in Statistical Data Graphics, IEEE Transactions on Visualization and Computer Graphics, Vol. 13, No. 6, 1240-1247 and the video\nCoordinated Highlighting in Context\nCartographic Interaction Primitive: Framework and Synthesis"
+  },
+  {
+    "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html",
+    "href": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html",
+    "title": "Lesson 3: Analytical Interaction and Animation",
+    "section": "",
+    "text": "Typology of Interactive Techniques\n\nData & view specification\nView Manipulation\nProcess and Provenance\n\nInteractive Design Primitive\nAnimation: Principles and Best Practices"
   }
 ]

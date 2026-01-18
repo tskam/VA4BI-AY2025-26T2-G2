@@ -1,5 +1,5 @@
 ---
-title: "Lesson 3: Interactivity in Visual Analytics: Principles and Methods"
+title: "Lesson 3: Analytical Interaction and Animation"
 date: "January 1, 2026"
 date-modified: "last-modified"
 format: html
@@ -12,10 +12,11 @@ editor: visual
 -   The role of Interaction in visual analytics
 -   The concept of linked multiple views
 -   Interactive analytics best practices
+-   Animation: Principles, Methods and Best Practices
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 3:Interactivity in Visual Analytics]()
+-   [Lesson 3:Analytical Interaction and Animation](/lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html)
 
 ## Readings
 
