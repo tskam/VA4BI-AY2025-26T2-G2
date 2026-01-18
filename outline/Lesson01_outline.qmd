@@ -21,7 +21,6 @@ editor: visual
 
 -   [Lesson 1: Introduction to Visual Analytics](/lesson/Lesson01/Lesson01-VA4BI.html).
 
-
 ## Self-reading Before Lesson
 
 ### Webinars

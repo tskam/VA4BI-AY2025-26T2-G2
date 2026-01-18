@@ -18,7 +18,7 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 2: Designing Graphs to Enlighten]()
+-   [Lesson 2: Designing Graphs to Enlighten](/lesson/Lesson02/Lesson02-Designing Graphs to Enlighten.html)
 
 ## Readings
 
