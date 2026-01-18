@@ -4,7 +4,7 @@ editor: visual
 ---
 
 | Week | Date | Topic | Remarks |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | 1 | 12/1/2026 | [Lesson 1: Introduction to Visual Analytics](outline/lesson01_outline.html) |  |
 | 2 | 19/1/2026 | [Lesson 2: Designing Graphs to Enlighten](outline/lesson02_outline.html) |  |
 | 3 | 26/1/2026 | [Lesson 3: Analytical Interactive and Animation](outline/lesson03_outline.html) |  |
@@ -12,10 +12,10 @@ editor: visual
 | 5 | 9/2/2026 | [Lesson 5: Visualising and Analysing Multivariate Data](outline/lesson05_outline.html) |  |
 | 6 | 16/2/2026 | [Lesson 6: Visualising and Analysing Time-series Data](outline/lesson06_outline.html) |  |
 | 7 | 23/2/2026 | [Lesson 7: Visualising and Analysing Geographic Data](outline/lesson07_outline.html) |  |
-| 8 | 2/3/2026 | Mid-term break |  |
-| 9 | 9/3/2026 | [Lesson 8: Visualising and Analysing Graph Data](outline/lesson08_outline.html) |  |
-| 10 | 16/3/2026 | [Lesson 9: Visualising and Analysing Text Data](outline/lesson09_outline.html) |  |
-| 11 | 23/3/2026 | [Lesson 10: Information Dashboard Design](outline/lesson10_outline.html) |  |
+| 8 | 2/3/2026 | [Lesson 8: Visualising and Analysing Graph Data](outline/lesson08_outline.html) |Replacing lesson on 23/3/2026 |
+| 9 | 9/3/2026 | [Lesson 9: Visualising and Analysing Text Data](outline/lesson09_outline.html) |  |
+| 10 | 16/3/2026 |[Lesson 10: Information Dashboard Design](outline/lesson10_outline.html)  |  |
+| 11 | 23/3/2026 |No Lesson  |  |
 | 12 | 30/3/2026 | [Lesson 11: Integrating Visual Analytics and AI](outline/lesson11_outline.html) |  |
 | 13 | 6/4/2026 | [Lesson 12: The Epilog](outline/lesson12_outline.html) |  |
 | 14 | 13/4/2025 | Townhall Presentation |  |
