@@ -24,7 +24,7 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 4: Fundamentals of Visual Analytics]() slides
+-   [Lesson 4: Fundamentals of Visual Analytics](/lesson/Lesson04/Lesson04-Fundamentals_of_VA.html) slides
 
 ## Readings on Visualising Uncertainty
 
@@ -54,4 +54,3 @@ editor: visual
 -   [Funnel Plot in Tableau](https://www.youtube.com/watch?v=HgYzplb5XAU)
 -   [Creating Error Bars or CI Bars](https://kb.tableau.com/articles/howto/creating-error-bars)
 -   [Standard errors and confidence intervals in Tableau](https://www.theinformationlab.co.uk/2019/10/25/standard-errors-and-confidence-intervals-in-tableau/)
-
