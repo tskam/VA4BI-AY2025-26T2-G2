@@ -75,11 +75,11 @@ Students are required to The specific submission instructions are as follows:
 
 -   Publish the data visualisation report on Tableau Pulic and provide the url on eLearn.  The report must be in Tableau **Story** format.
 -   Upload the Tableau Workbook of the assignment submission on eLearn, and
--   upload the MS Word version of the write-up of the assignment on eLearn.  It should include but not limited to the [write-up]() requirements above. 
+-   upload the MS Word version of the write-up of the assignment on eLearn.  It should include but not limited to the [write-up](https://va4bi-ay2025-26t2-g2.netlify.app/assign/assign1#the-task) requirements above. 
 
 ### Submission date
 
-The completed take-home exercise is due on **15th February 2026 (Sunday) by 11:59pm mid-night**.
+The completed take-home exercise is due on **22th February 2026 (Sunday) by 11:59pm mid-night**.
 
 ## Source
 
