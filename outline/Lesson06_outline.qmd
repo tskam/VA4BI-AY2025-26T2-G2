@@ -25,9 +25,7 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 7:Visualising and Analysing Time-Oriented Data](../lesson/Lesson07/Lesson07-VisTime.html) slides.
-
--   [Hands-on Exercise 7: Visualising and Analysing Time-oriented Data](https://r4va.netlify.app/chap17) .
+-   [Lesson 6:Visualising and Analysing Time-Oriented Data](../lesson/Lesson06/Lesson06-VisTime.html) slides.
 
 ## Readings
 
