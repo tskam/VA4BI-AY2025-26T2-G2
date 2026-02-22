@@ -1,5 +1,5 @@
 ---
-title: "Lesson 8: Visualising and Analysing Geographic Data"
+title: "Lesson 7: Visualising and Analysing Geographic Data"
 date: "January 1, 2026"
 date-modified: "last-modified"
 format: html
@@ -19,7 +19,7 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 8: Visualising and Analysing Geographic Data]() slides.
+-   [Lesson 7: Visualising and Analysing Geographic Data](../lesson/Lesson07/Lesson07-VisGeo.html) slides.
 
 ## Readings
 
@@ -65,4 +65,3 @@ editor: visual
 -   [10 ways to add value to your dashboards with maps](https://www.tableau.com/learn/whitepapers/10-ways-add-value-your-dashboards-maps)
 -   [3 Ways to Make Magnificent Maps in Tableau](https://www.ryansleeper.com/3-ways-to-make-magnificent-maps-in-tableau/)
 -   [How to Make Trellis / Tile / Small Multiple Maps in Tableau](https://playfairdata.com/how-to-make-trellis-tile-small-multiple-maps-in-tableau//)
-

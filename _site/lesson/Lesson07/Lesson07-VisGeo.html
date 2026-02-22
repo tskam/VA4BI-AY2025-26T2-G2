@@ -11,7 +11,7 @@
 
   <meta name="author" content="Dr.&nbsp;Kam Tin Seong Assoc. Professor of Information Systems (Practice)">
   <meta name="dcterms.date" content="2026-02-22">
-  <title>IS428 – Lesson 4:  Fundamentals of Visual Analytics</title>
+  <title>IS428 – Lesson 7: Visualising and Analysing Geographic Data</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -128,7 +128,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Lesson 4: <br>Fundamentals of Visual Analytics</h1>
+  <h1 class="title">Lesson 7: Visualising and Analysing Geographic Data</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -145,299 +145,91 @@ Dr.&nbsp;Kam Tin Seong<br>Assoc. Professor of Information Systems (Practice)
 </section>
 <section id="what-will-you-learn-from-this-lesson" class="slide level2">
 <h2>What will you learn from this lesson?</h2>
-<div style="font-size: 1.2em">
 <ul>
-<li>Visual Analytics for Knowledge Discovery</li>
-<li>Visual Analytics Approach for Statistical Testing</li>
-<li>Visual Analytics for Building Better Models</li>
-<li>Visualising Uncertainty</li>
-<li>Variation and Its Discontents</li>
+<li>Introducing map</li>
+<li>Properties of geographical data
+<ul>
+<li>Geographical data models</li>
+<li>Map projections</li>
+</ul></li>
+<li>Typology of maps
+<ul>
+<li>Reference maps</li>
+<li>Thematic maps</li>
+</ul></li>
+<li>Proportional Symbol Map</li>
+<li>Choropleth Map</li>
 </ul>
-</div>
-<aside class="notes">
-<p>In this lesson, I am going to share with you how visual analytics approach can be used to complement conventional statistical testing and model building. Then, We will examine methods for visualising uncertainty. Lastly, I will introduce you to funnel plot, a visual method specially designed to provide a fare comparison among entities in a group.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
-<section id="visually-analytics-for-knowledge-discovery" class="slide level2">
-<h2>Visually Analytics for Knowledge Discovery</h2>
-<p>Motivation: To combine data visualisation and statistical modeling.</p>
+<section id="what-is-a-map" class="slide level2">
+<h2>What is a Map?</h2>
+<p>A map is a model of real world depict by a collection of cartographic symbols or/and visual abstraction.</p>
 
-<img data-src="img/image1.jpg" class="r-stretch"><aside class="notes">
-<p>This slide highlight the important roles play by visual analytics in the knowledge discovery framework.</p>
-<p>Before building model, visual analytics can be used to provide better understanding of the variables. These information can be very useful in the subsequent model building process. For example, appropriately designed visual analytics can be used to reveals if there is sign of multicolinearity.</p>
-<p>After calibrating the model, visual analytics can be used to reveal the model output for example to check if the model conform to a specific statistical assumption.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
+<img data-src="img/image6-1.jpg" class="r-stretch"></section>
+<section id="what-is-a-map-1" class="slide level2">
+<h2>What is a Map?</h2>
+<p>An interface between geographical data and map users.</p>
 
-<h3 id="visually-driven-correlation-analysis">Visually-driven Correlation Analysis</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Scatter plot showing the relationship between two continuous variables.</p>
-<p><img data-src="img/image5a.png"></p>
-</div><div class="column" style="width:50%;">
-<p>Scatter plot with significant test of correlation.</p>
-<p><img data-src="img/image5b.png"></p>
-</div></div>
-<aside class="notes">
-<p>The chart on the left is a typical scatter plot commonly prepared by data visualisation designer.</p>
-<p>The chart on the right is an example of a visual analytic boxplot. Notice that, the chart is complement with statistical test results and other ancillary information such as sample sizes.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
+<img data-src="img/image6-1b.jpg" class="r-stretch"></section>
+<section id="a-map-and-geographical-data" class="slide level2">
+<h2>A Map and Geographical Data</h2>
 
-<h3 id="visually-driven-association-independent-analysis">Visually-driven Association (Independent) Analysis</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>Mosaic plot showing the association between two categorical variables.</p>
-<p><img data-src="img/image6a.png"></p>
-</div><div class="column" style="width:50%;">
-<p>Stacked bar chart with significant test of association.</p>
-<p><img data-src="img/image6b.png"></p>
-</div></div>
-<aside class="notes">
-<p>The chart on the left is a typical stacked bar chart commonly prepared by data visualisation designer.</p>
-<p>The chart on the right is an example of a visual analytic stacked bar chart. Notice that, the chart is complement with statistical test results and other ancillary information such as sample sizes.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="visualising-uncertainty" class="slide level2">
-<h2>Visualising Uncertainty</h2>
-<h3 id="why-it-is-important">Why it is important?</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
+<img data-src="img/image6-1c.jpg" class="r-stretch"></section>
+<section id="types-of-geographical-data" class="slide level2">
+<h2>Types of geographical data</h2>
+
+<img data-src="img/image6-1d.jpg" class="r-stretch"></section>
+<section id="how-location-information-are-registered" class="slide level2">
+<h2>How location information are registered?</h2>
 <ul>
-<li>One of the most challenging aspects of data visualization is the visualization of uncertainty.</li>
+<li><p>Geographic Coordinates Systems</p></li>
+<li><p>Projected Coordinates Systems</p></li>
 </ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="img/image5-1.jpg"></p>
-</div></div>
-<div style="font-size: 0.65em">
-<p>Source: Chart 61, LABOUR FORCE IN SINGAPORE 2019, pg. 52.</p>
-</div>
-<aside class="notes">
-<p>One of the most challenging aspects of visual analytics is the visualisation of uncertainty. When we see data point drawn in a specific location, we tend to interpret it as a precise representation of the true value. It is difficult to conceive that a data point could actually lie somewhere it hasn’t been drawn. Yet this scenario is ubiquitous in data visualisation. Nearly every dataset we work with has some uncertainty, and whether and how we choose to represent this uncertainty can make a major difference in how accurately our audience perceives the meaning of the data.</p>
-<p>Two commonly used approaches to indicate uncertainty are error bars and confidence bands. In this section, we will examine the basic concepts and design pricinples of these methods.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
-<section class="slide level2">
-
-<h3 id="why-one-shouldnt-use-a-bar-graph-even-if-the-data-are-normally-distributed">Why one shouldn’t use a bar graph, even if the data are normally distributed?</h3>
+<section id="how-location-information-are-registered-1" class="slide level2">
+<h2>How location information are registered?</h2>
+<h3 id="geographic-coordinates-systems">Geographic Coordinates Systems</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li>It is not appropriate to displace average values on bars.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="img/image5-2.jpg"></p>
-</div></div>
-<aside class="notes">
-<p>Figure on the right is an EDA plot that I use to see in the Assignment 1 reports of ISSS602 Data Analytics Lab. Bar chart should be used to show count or frequency count and should not be used to reveal summary statistics such as mean. This is because the bar failed to show the range of observed values.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="why-error-bar-failed">Why Error bar failed?</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Each error bar is constructed using a 95% confidence interval of the mean.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="img/image5-3.jpg"></p>
-</div></div>
-<aside class="notes">
-<p>In an error bar, the bar height represents the mean. Error bars represent 1 standard error. The y-axis starts at zero and ends just above the highest error bar.</p>
-<p>Given that the y-axis typically starts at zero, bars often include irrelevance values as shown in the figure. zone of irrelevance.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="error-bar-on-a-dot-plot">Error bar on a dot plot</h3>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ul>
-<li>Each error bar is constructed using a 95% confidence interval of the percentage.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><img data-src="img/image5-3b.jpg"></p>
-</div></div>
-<aside class="notes">
-<p>The error plot on dot plot is more truthful and informative alternatives to the error bar graph in previous slide. The plot reveals the value range of each race clearly. By applying inking principle in the design, the error plot and the mean value of each race is shown clearly.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="graphical-methods-for-visualising-uncertainty">Graphical methods for visualising uncertainty</h3>
-
-<img data-src="img/image5-12.png" class="r-stretch"><div style="font-size: 0.65em">
-<p>Reference: <a href="https://serialmentor.com/dataviz/visualizing-uncertainty.html#visualizing-the-uncertainty-of-point-estimates">Visualizing the uncertainty of point estimates</a></p>
-</div>
-<aside class="notes">
-<p>This figure shows different different alternative design of error plots: + graded error plots with caps; + graded error plots without caps; + single-interval error plots with caps; + single-interval error plots without caps; + confidence strips; and + confidence distributions.</p>
-<p>There are advantages and disadvantages to all these choices. You are encouraged to explore them one by one and select the best data visualisation that meet you storytelling need.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="back-to-statistics-101">Back to Statistics 101</h3>
-<h4 id="population-and-samples">Population and samples</h4>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="img/image5-5.jpg"></p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="img/image5-6.jpg"></p>
-</div></div>
-<ul>
-<li>When drawing many samples from a population, it is possible to obtain a few with means that greatly differ from the population.</li>
+<li>A geographic coordinate system defines two-dimensional coordinates based on the Earth’s surface. It has an angular unit of measure, prime meridian and datum (which contains the spheroid).</li>
+<li>For example, WGS84, NAD27 and NAD83.</li>
 </ul>
 <div style="font-size: 0.65em">
-<p>Reference: Cairo, A. (2016) The Truthful Art, Chapter 11, New Riders]</p>
+<p>Source: <a href="https://en.wikipedia.org/wiki/Geographic_coordinate_system">Geographic Coodinate Ststem@wiki</a></p>
 </div>
-<aside class="notes">
-<p>in order to prepare an error plot manually, it is good for us the revise some of the basic statistical concepts.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+</div><div class="column" data-qidth="50%">
+<p><img data-src="img/image6-1e.jpg"></p>
+</div></div>
 </section>
-<section class="slide level2">
-
-<h4 id="a-reminder-of-the-standard-normal-distribution">A reminder of the standard normal distribution</h4>
-
-<img data-src="img/image5-7.jpg" class="r-stretch"><div style="font-size: 0.65em">
-<p>Reference: Cairo, A. (2016) The Truthful Art, Chapter 11, New Riders.</p>
-</div>
-<aside class="notes">
-<p>If the distribution of heights in the population is roughly normal (and, again, we don’t know this), your answer can be inspired by a chart in this slide, which displays the percentage of scores that lie in between a certain number of standard deviations from the mean. We see that 68.2 percent of score lie between -1 and 1 standard deviations from the mean, and just 0.1 percent of scores are above three standard deviation.</p>
-<ul>
-<li>In a standard normal distribution, 95 percent of the scores lie between z-score -1.96 and 1.96 (that is, between -1.96 and 1.96 standard deviations from the mean).</li>
-<li>Also in a standard normal distribution, 99 percent of the scores lie between z-scores -2.58 and 2.58 (they are between -2.58 and 2.58 standard deviations from the mean)</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h4 id="the-standard-error">The standard error</h4>
+<section id="how-location-information-are-registered-2" class="slide level2">
+<h2>How location information are registered?</h2>
+<h3 id="projected-coordinates-systems">Projected Coordinates Systems</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>The formulas of standard deviation and standard error</p>
-<p><img data-src="img/image5-8a.jpg"></p>
+<ul>
+<li>A projected coordinate system is defined on a flat, two-dimensional surface.</li>
+<li>A projected coordinate system, unlike a geographic one, has the advantage that lengths, angles, and areas are constant across the two dimensions. This is not true when working in a geographic coordinate system.</li>
+<li>A projected coordinate system is always based on a geographic coordinate system that can use a sphere or spheroid.</li>
+</ul>
 </div><div class="column" style="width:50%;">
-<p><img data-src="img/image5-8.jpg" width="560"></p>
-</div></div>
+<p><img data-src="img/image6-1f.jpg"></p>
 <div style="font-size: 0.65em">
-<p>Reference: Cairo, A. (2016) The Truthful Art, Chapter 11, New Riders.</p>
+<p>Source: <a href="http://en.wikipedia.org/wiki/Map_projection">Map Projection@wiki</a></p>
+</div>
+</div></div>
+</section>
+<section id="the-purpose-of-a-map" class="slide level2">
+<h2>The Purpose of a Map</h2>
+<ul>
+<li>To serve as a piece of historical archive.</li>
+</ul>
+
+<img data-src="img/image6-2.jpg" class="r-stretch"><div style="font-size: 0.65em">
+<p>Source: <a href="http://en.wikipedia.org/wiki/Battle_of_Singapore">Battle of Singapore</a></p>
 </div>
 <aside class="notes">
-<p>Imagine that instead of drawing just a few samples from our population, we are able to get dozens of random samples of 40 purples each and that we calculate the mean of each of them.<br>
-Next, imagine that we discard all scores from all samples, and that we just keep their means. Then, we draw a histogram of just these means. This imaginary histogram is called <strong>a distribution of sample means</strong>. As any other distribution, it will have a mean of its own (a mean of sample means) and a standard deviation. This standard deviation of many imaginary sample means is called <strong>the standard error of the mean</strong>.</p>
+<p>A map serves as a record of the physical and cultural environment at a particular time. For example, the map above shows Singapore in early February 1942; the disposition of Allied ground forces is in red. The main north–south transport corridor, formed by Woodlands Road and the railway, connecting the city centre (in the southeast) and The Causeway (central north), is the black line running through the centre of the island. Sarimbun is at the north west corner of the island; Bukit Timah is located close to the centre on the transport corridor; Pasir Panjang is between the city centre and the southwest corner of the island and the “Jurong Line” is the bracket-like shape in red, just west of Woodlands Roadland use allocation on Singapore Concept Plan in 2001.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -450,93 +242,59 @@ Next, imagine that we discard all scores from all samples, and that we just keep
           display:block!important;
       }</style></aside>
 </section>
+<section id="the-purpose-of-a-map-1" class="slide level2">
+<h2>The Purpose of a Map</h2>
+<ul>
+<li>To support navigation (i.e.&nbsp;Google Map).</li>
+</ul>
+
+<img data-src="img/image6-3.jpg" class="r-stretch"></section>
+<section id="the-purpose-of-a-map-2" class="slide level2">
+<h2>The Purpose of a Map</h2>
+<ul>
+<li>To support navigation (i.e.&nbsp;sea chart of Singapore)</li>
+</ul>
+
+<img data-src="img/image6-4.jpg" class="r-stretch"><div style="font-size: 0.65em">
+<p>Source: <a href="https://www.mpa.gov.sg/web/portal/home/port-of-singapore/services/charts-tidal-info-atons-and-hydrography/singapore-electronic-navigational-chart">Singapore electronic navigational chart</a></p>
+</div>
+</section>
+<section id="the-purpose-of-a-map-3" class="slide level2">
+<h2>The Purpose of a Map</h2>
+<ul>
+<li>To reveal spatial patterns.</li>
+</ul>
+
+<img data-src="img/image6-5.jpg" class="quarto-figure quarto-figure-left r-stretch" width="467"><div style="font-size: 0.65em">
+<p>Reference: <a href="https://en.wikipedia.org/wiki/John_Snow">John Snow Cholera Map</a></p>
+</div>
+</section>
+<section id="the-purpose-of-a-map-4" class="slide level2">
+<h2>The Purpose of a Map</h2>
+<ul>
+<li>To describe spatial relationship.</li>
+</ul>
+
+<img data-src="img/image6-5a.jpg" class="r-stretch"></section>
+<section id="typology-of-maps" class="slide level2">
+<h2>Typology of Maps</h2>
+
+<img data-src="img/image6-6.jpg" class="r-stretch"></section>
 <section class="slide level2">
 
-<h3 id="calculating-the-confidence-interval-of-a-mean">Calculating the confidence interval of a mean</h3>
-
-<img data-src="img/image5-9.jpg" class="r-stretch"><div style="font-size: 0.65em">
-<p>Reference: Cairo, A. (2016) The Truthful Art, Chapter 11, New Riders.</p>
-</div>
-<aside class="notes">
-<p>A confidence interval is an expression of the uncertainty around any statistic we wish to report. It is based on the standard error, and it’s usually communicated this way:</p>
-<p>“With a 95 percent level of confidence, we estimate that the average height of 12-year-old purples is 5.3feet +/-(margin of error here).</p>
-<p>To calculate a confidence interval first, we need to decide on a confidence level. The most common one is 95% and 98%, although you could really pick any figure you wish. What we need to remember is that <strong>the greater the confidence level we choose, the greater the margin of error becomes</strong>.</p>
-<p>Let us begin with the confidence interval for the mean of a sample. The average height of purples in our sample was 5.3 feet, and the standard deviation was 0.5. The 5.3 score is a <strong>point estimate</strong>. Reporting it on its own isn’t correct. We must also disclose the uncertainty that surrounds it. The formulas for the confidence interval of the mean of a large sample and to apply them are in the slide. The z in red is called the <strong>critical value</strong>.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="calculating-the-confidence-interval-of-a-percentage">Calculating the confidence interval of a percentage</h3>
-
-<img data-src="img/image5-11.jpg" class="r-stretch"><div style="font-size: 0.65em">
-<p>Reference: Cairo, A. (2016) The Truthful Art, Chapter 11, New Riders.</p>
-</div>
-<aside class="notes">
-<p>This slide shows the formulas to calculate the confidence interval of a percentage. Notice that the main different in these formula.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="variation-and-its-discontents" class="slide level2">
-<h2>Variation and Its Discontents</h2>
-<h3 id="random-and-unfair-comparisons">Random and unfair comparisons</h3>
-
-<img data-src="img/image5-16.jpg" class="r-stretch"><div style="font-size: 0.65em">
-<p>Reference: <a href="https://www.perceptualedge.com/articles/visual_business_intelligence/variation_and_its_discontents.pdf">Variation and its discontents</a></p>
-</div>
-<aside class="notes">
-<p>Central to quantitative data analysis is an understanding of <strong>variation</strong>. When we measure multiple occurrences of things to determine how and to what extent they differ, we’re examining variation. Some variation is random and some is caused by factors that we can attempt to identify and perhaps control. Random variation consists of differences in measures that occur routinely, without a specific cause. We should note random variation and move on, because nothing can be done about it. It is noise. It tells us nothing that requires a response.</p>
-<p>Instances of non-random variation are signals; they tell us something useful and provide opportunities for action. Signals that indicate poor performance—an undesirable state—can perhaps be reduced by controlling the causes. Signals that indicate an especially good state of affairs can provide useful insights and opportunities for improvement.</p>
-<p>Despite the significance of variation, relatively few people who work with data in most organizations understand it, especially the nature of randomness. This leads to false conclusions and poor decisions, especially when comparing measures of performance within a set of like entities (e.g., countries or companies). Most organizations spend too much time examining noise: the cacophony of random variation. Learning to distinguish signals from the noise is a fundamental skill of data analysis and performance monitoring. In this article, we’ll take a look at a special version of a scatter plot, called a <strong>funnel plot</strong> (not to be confused with a funnel chart), which is designed to filter out the noise and shine a spotlight on meaningful variation when we compare performance among entities in a group. Funnel plots address the fact that entities with relatively few occurrences of the thing being measured (a small sample), when compared to entities with many occurrences (a large sample), exhibit a greater degree of random variation, which must be taken into account when comparing them. A little later we’ll take a look at this problem and the solution that funnel plots provide in relation to healthcare data, but first let’s get more familiar with the effects of sample size on randomness.</p>
-<p>Consider the following display (a caterpillar plot) of actual healthcare data. Each data point represents a hospital, with 260 in total. The values are mortality rates following surgeries and the solid horizontal line represents the mean.</p>
-<p>The sample sizes (number of surgeries reported by each hospital) on which this graph is based range from 7 to 3,151. For this reason it isn’t appropriate to rank the hospitals by mortality rate. The ranking suggests a relationship of relative performance that cannot be determined by the data.</p>
-<p>Imagine that, unlike the anonymous version of the graph above, each data point is labeled with the hospital’s name. Can you hear the screams of surgeons from the hospitals with the highest mortality rates in the 4th quartile section of the chart? Can you see the puffed up egos of the surgeons who work at the hospitals with mortality rates of zero in the 1st quartile section? One of the hospitals with a zero mortality rate provided a sample of only seven surgeries.</p>
-<p>Note: You might realize, especially if you work with healthcare data similar to the example above, that a fair comparison of hospitals would require the data to be adjusted not just to account for varying sample sizes but also for varying levels of risk. Some surgeries are more risky than others and some patients, due to varying levels of illness, are more at risk than others. We’ll ignore this for now to keep the example simple.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section class="slide level2">
-
-<h3 id="funnel-plots-to-the-rescue">Funnel plots to the rescue</h3>
+<h3 id="reference-maps">Reference maps</h3>
 <div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="statistical-details">Statistical details</h3>
-<p><img data-src="img/image5-18.jpg" width="980"></p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="img/image5-17.jpg"></p>
+<div class="column" style="width:30%;">
+<ul>
+<li>Reference maps emphasize the location of spatial phenomena, such buildings, roads, vegetations, rivers, etc. Some of popular reference maps are <strong>topographical map</strong> and internet map such as Google map.</li>
+</ul>
+</div><div class="column" style="width:65%;">
+<p><img data-src="img/image6-7.jpg"></p>
 </div></div>
 <aside class="notes">
-<p>This funnel plot displays one data point per hospital, each of which shows the number of surgeries and the square root transformed mortality rate. The square roots of the mortality rates are not particularly meaningful in and of themselves, but that doesn’t matter because we’re simply trying to identify the hospitals that exhibit a level of performance that is outside of the boundaries of random variation and thus, according to the language of statistical process control, were probably due to a “special cause.” The farther a value falls outside of the boundaries, the more likely it is due to a special cause rather than randomness.</p>
-<p>Notice in the lower left-hand corner of the same plot below that two of the hospitals with mortality rates of zero reside within the boundaries, which indicates that we cannot rely on their low rates as significant.</p>
-<p>It is important to note that in making this comparison, we are assuming that the hospitals are homogeneous, all part of a single system which might not true in real world. For example, surgeries of many types are being compared without taking into account the fact that surgeries vary significantly in mortality risk. Likewise, patients of various levels of heath are being compared without taking into account that some of them went into surgery much healthier than others and were therefore at lesser mortality risk.</p>
-<p>It is routine when dealing with heterogeneous entities such as different types of surgeries and patients of varying levels of health to adjust values to account for these factors. In a case such as post-surgical mortality, typically an expected number of deaths is calculated to account for varying levels of risk and then the observed (actual) number of deaths that occurred is compared to this, resulting in an observed vs.&nbsp;expected (O/E) ratio. For a completely fair comparison of post-surgical mortality among these hospitals, it is this O/E ratio that should appear in the funnel plot.</p>
+<p>Topographic maps are detailed, accurate graphic representations of features that appear on the Earth’s surface. These features include: cultural: roads, buildings, urban development, railways, airports, names of places and geographic features, administrative boundaries, state and international borders, reserves hydrography: lakes, rivers, streams, swamps, coastal flats relief: mountains, valleys, slopes, depressions vegetation: wooded and cleared areas, vineyards and orchards.</p>
+<p>A map legend (or key) lists the features shown on that map, and their corresponding symbols. Topographic maps usually show a geographic graticule and a coordinate grid, so you can determine relative and absolute positions of mapped features.<br>
+It is important to note that a map is merely a two or three dimensional representation of the physical environment at a given time. Therefore, a map will never be entirely up to date. Changes to the landscape and cultural features regularly occur (such as roads, vegetation, and buildings), resulting in maps becoming dated, although the rate of obsolescence varies depending upon location. Traditionally present in paper printed format.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -551,16 +309,333 @@ Next, imagine that we discard all scores from all samples, and that we just keep
 </section>
 <section class="slide level2">
 
-<h3 id="normality-assumption">Normality assumption</h3>
+<h3 id="thematic-map">Thematic Map</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li><p>Before plotting the graph, it is important to check if the values are conformed to normal distribution assumption.</p></li>
-<li><p>If the raw values are not conformed to normality assumption, they have to be transformed.</p></li>
+<li>Thematic maps emphasize the spatial pattern of geographic attributes or statistics about places and relationships between places such as Life in Los Angeles.</li>
+</ul>
+<div style="font-size: 0.65em">
+<p>Source: <a href="https://mapdesign.icaci.org/2014/12/mapcarte-353365-life-in-los-angeles-by-eugene-turner-1977/">Life in Los Angeles</a></p>
+</div>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image6-8.jpg"></p>
+</div></div>
+</section>
+<section id="thematic-mapping-principles-and-methods" class="slide level2">
+<h2>Thematic Mapping: Principles and Methods</h2>
+<ul>
+<li>Displaying
+<ul>
+<li>Qualitative data</li>
+<li>Quantitative data</li>
+</ul></li>
+<li>Choosing -Appropriate classification method for displaying data
+<ul>
+<li>Appropriate number of classes</li>
+</ul></li>
+<li>Techniques in data analysis
+<ul>
+<li>Using the classification histogram</li>
+<li>Normalizing data</li>
+</ul></li>
+</ul>
+</section>
+<section id="qualitative-thematic-maps" class="slide level2">
+<h2>Qualitative Thematic Maps</h2>
+<h3 id="visual-variables-and-cartographic-symbols">Visual Variables and Cartographic Symbols</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Qualitative visual variables are used for nominal scale data.</li>
+<li>The goal of qualitative visual variables is to show how entities differ from each other.</li>
+<li>The visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.<br>
+</li>
+<li>Figure on the right for examples of these four ordinal visual variables used each in point, linear and areal symbols.</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><img data-src="img/image5-19.jpg"></p>
+<p><img data-src="img/image6-9.jpg"></p>
 </div></div>
+</section>
+<section id="qualitative-thematic-map" class="slide level2">
+<h2>Qualitative Thematic Map</h2>
+<h3 id="point-symbol-map">Point symbol map</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Different point symbols are used to represent school types.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image6-10.jpg"></p>
+</div></div>
+</section>
+<section id="qualitative-thematic-map-1" class="slide level2">
+<h2>Qualitative Thematic Map</h2>
+<h3 id="line-symbol-map">Line symbol map</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>A road map is an example of a thematic map. It shows the road network of an area. In this map, lines with different colour intensity and tickness are used to differentiate hierarchy of roads.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image6-11.jpg" width="467"></p>
+</div></div>
+</section>
+<section id="qualitative-thematic-map-2" class="slide level2">
+<h2>Qualitative Thematic Map</h2>
+<h3 id="area-map">Area map</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Land use map below is a good example of a discrete thematic map. In this map, different colours are use to represent different land use types.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="img/image6-12.jpg"></p>
+</div></div>
+</section>
+<section id="quantitative-thematic-map" class="slide level2">
+<h2>Quantitative Thematic Map</h2>
+<h3 id="visual-variables-and-cartographic-symbols-1">Visual Variables and Cartographic Symbols</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Quantitative visual variables are used to display ordinal, interval or ratio scale data.<br>
+</li>
+<li>The goal of the quantitative visual variable is to show relative magnitude or order between entities.</li>
+<li>The visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.<br>
+</li>
+<li>Figure on the right shows of these four ordinal visual variables used each in point, linear and areal symbols.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image6-13.jpg"></p>
+</div></div>
+</section>
+<section id="proportional-symbol-map" class="slide level2">
+<h2>Proportional Symbol Map</h2>
+<ul>
+<li>The proportional symbol technique uses symbols of different sizes to represent data associated with different areas or locations within the map.</li>
+</ul>
+
+<img data-src="img/image6-14.jpg" class="r-stretch"><aside class="notes">
+<p>The proportional symbol technique uses symbols of different sizes to represent data associated with different areas or locations within the map. For example, the proportional maps above use circle with different sizes to represent millions of people. There are two types of point features that are typically depicted with proportional symbols: features for which the data represents a geographic position directly (e.g., gallons of oil from individual oil wells), and features that are geographic areas to which data are aggregated and the data magnitudes are assigned to a representative point within the area (e.g., the geographic centroid of a state as in the examples above). In either case, the area of the symbol is scaled to represent the data magnitude, sometimes with a bit of exaggeration to adjust for a general tendency of human vision to underestimate differences in area. A variant on this direct data-to-symbol scaling groups values into categories first, then scales the symbol to represent the mean for the category, assigning a symbol to each place to represent the category range that the mean for the place falls within</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<h3 id="how-to-size-circles-incorrectly-and-correctly">How to size circles incorrectly and correctly?</h3>
+<p>Figure below explains how attribute values are map on circles. One strategy to overcome this problem is to use square instead of circle.</p>
+
+<img data-src="img/image6-16a.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="how-to-make-proportional-symbol-maps-clearer">How to make proportional symbol maps clearer?</h3>
+<p>When designing a proportional symbol map, one of the important consideration is to avoid the circles blocking each other. One possible strategy to overcome this problem is to applying opacity (also known as transparency).</p>
+
+<img data-src="img/image6-16b.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="proportional-symbol-map-pie-chart-map">Proportional Symbol Map: Pie Chart Map</h3>
+<p>One important characteristic of proportional symbols is that they can easily be designed to represent more than one data value per location. Among the most common example is a <strong>pie chart map</strong> in which a circle is scaled proportionally to some total, and the size of wedges within the circle is scaled to depict a proportion of a total for two or more sub-categories.</p>
+
+<img data-src="img/image6-15.jpg" class="r-stretch"><aside class="notes">
+<p>One important characteristic of proportional symbols is that they can easily be designed to represent more than one data value per location. Among the most common example is a “pie chart map” in which a circle is scaled proportionally to some total, and the size of wedges within the circle is scaled to depict a proportion of a total for two or more sub-categories. The map above uses circle size to depict total sales in each city, and the pie slices then depict proportion of the three shipping modes, namely: delivery truck, express air and regular air.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section class="slide level2">
+
+<h3 id="proportional-symbol-map-bar-chart-map">Proportional Symbol Map: Bar Chart Map</h3>
+<p><strong>Proportional side-by-side bar map</strong> places side-by-side bar chart on a map based on the location of the observations.</p>
+
+<img data-src="img/image6-16.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="proportional-symbol-map---junk-map">Proportional Symbol Map - Junk Map</h3>
+<p>When preparing a proportional symbol map, it is important to ensure that the geographical level used is the same.</p>
+
+<img data-src="img/image6-16c.jpg" class="r-stretch"><div style="font-size: 0.65em">
+<p>Source: <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">COVID-19 Dashboard</a></p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="altertive-of-proportional-symbol-map-bricks-map">Altertive of Proportional Symbol Map: Bricks Map</h3>
+<p>Bricks Map aims to provide better ways to encode quantitative information graphically—ways that can be easily, efficiently, and accurately decoded.</p>
+
+<img data-src="img/image6-17.jpg" class="r-stretch"><div style="font-size: 0.65em">
+<p>Source: <a href="http://www.perceptualedge.com/articles/visual_business_intelligence/building_insight_with_bricks.pdf">Building insight with bricks</a>.</p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="bricks-map-versus-proportional-symbol-map">Bricks Map versus Proportional Symbol Map</h3>
+<p>By plotting a proportional symbol map and a bricks map side-by-side as shown below, it is clear that bubbles of graduated sizes proportional to the value ranges that they represent can be difficult to distinguish than the bricks.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="img/image6-17a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image6-17.jpg"></p>
+</div></div>
+</section>
+<section id="dot-density-map" class="slide level2">
+<h2>Dot Density Map</h2>
+<p>A dot-density map is a type of thematic map that uses dots or other symbols on the map to show the values of one or more numeric data fields. Each dot on a dot-density map represents some amount of data.</p>
+
+<img data-src="img/image6-18.jpg" class="r-stretch"><div style="font-size: 0.5em">
+<p>One dot represent 100 households.</p>
+</div>
+<div style="font-size: 0.65em">
+<p>Reference: <a href="https://en.wikipedia.org/wiki/Dot_distribution_map">Dot distribution map</a> at wiki and <a href="https://www.axismaps.com/guide/dot-density">Dot Density Maps</a></p>
+</div>
+</section>
+<section id="choropleth-map" class="slide level2">
+<h2>Choropleth Map</h2>
+<p>A choropleth map is a type of thematic map in which areas are shaded or patterned in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area, such as population or per capita income.</p>
+
+<img data-src="img/image6-19.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="classified-choropleth-map">Classified choropleth map</h3>
+<ul>
+<li>A choropleth map can be either classified or unclassified.</li>
+<li>A <strong>classed choropleth map</strong> combines areal units into a smaller number of groups. Interval levels may vary, but typically 4 to 7 are used in a map. There is different classification techniques used to divide up the intervals.</li>
+</ul>
+
+<img data-src="img/image6-20.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="unclassified-choropleth-map">Unclassified choropleth map</h3>
+<ul>
+<li>An <strong>unclassified choropleth</strong> map is similar to a classed choropleth map; however, an unclassed choropleth maps do not have an averaged statistic towards each particular colour.</li>
+</ul>
+
+<img data-src="img/image6-19.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="choropleth-mapping-technique---number-of-classes">Choropleth mapping technique - Number of classes</h3>
+<p>The readability of a choropleth map will be affected by the number of classes used.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>When a small number of classes is used, the spatial distribution reveals will be very limited.</li>
+</ul>
+<p><img data-src="img/image6-21a.jpg"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>When an appropriate number of classes is used, the spatial distribution reveals will be clear.</li>
+</ul>
+<p><img data-src="img/image6-21b.jpg"></p>
+</div></div>
+</section>
+<section class="slide level2">
+
+<h3 id="choropleth-mapping-technique-number-of-classes">Choropleth mapping technique: Number of classes</h3>
+<p>Figure below provided a mathematical method to determine number of classes used for preparing a choropleth map.</p>
+
+<img data-src="img/image6-21.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="choropleth-mapping-technique-methods-of-choosing-classification-scheme">Choropleth mapping technique: Methods of choosing classification scheme</h3>
+<ul>
+<li>Based on the nature of the distribution
+<ul>
+<li>quantile, equal interval, natural breaks, standard deviations, defined interval</li>
+</ul></li>
+<li>Arbitrary
+<ul>
+<li>Can be based on round numbers.</li>
+<li>Examples: Grouping according to age or census housing categories</li>
+<li>Can result in empty categories</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<h3 id="data-classification-method-equal-interval">Data classification method: Equal interval</h3>
+<ul>
+<li>Divides the range of attribute values into equally sized classes.</li>
+</ul>
+
+<img data-src="img/image6-22a.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="data-classification-method-quantitle">Data classification method: Quantitle</h3>
+<ul>
+<li>Same number of features per class.</li>
+</ul>
+
+<img data-src="img/image6-22b.jpg" class="quarto-figure quarto-figure-left r-stretch" width="993"></section>
+<section class="slide level2">
+
+<h3 id="data-classification-method-jenks-also-known-as-natural-breaks">Data classification method: Jenks (also known as Natural breaks)</h3>
+<ul>
+<li>Default Jenk’s statistical optimization by finds natural groupings in the data.</li>
+</ul>
+
+<img data-src="img/image6-22c.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="data-classification-method-standard-deviation">Data classification method: Standard deviation</h3>
+<ul>
+<li>A measure of dispersion. Use if the distribution approximates a normal distribution.</li>
+</ul>
+
+<img data-src="img/image6-22d.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="choropleth-map---colour-scheme">Choropleth map - Colour scheme</h3>
+<p><a href="http://colorbrewer2.org/">ColorBrewer</a> is an online tool designed to help people select good color schemes for maps and other graphics.</p>
+
+<img data-src="img/image6-23.jpg" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="colour-scheme-tip">Colour Scheme Tip</h3>
+<ul>
+<li>Avoiding multiple colours in choropleth mapping</li>
+<li>Stick with a single hue (or a small set of closely related hues) and vary intensity from pale colours for low values to increasingly darker and brighter colours for high values.</li>
+</ul>
+
+<img data-src="img/image6-23a.png" class="r-stretch"></section>
+<section class="slide level2">
+
+<h3 id="trellis-choropleth-map">Trellis choropleth map</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><strong>Trellis maps</strong> , also known as <strong>small multiple maps</strong>, are composed of many maps arrange side-by-side, and sometimes stacked vertically.</li>
+<li>Small multiple maps enable the visualisation of how spatial relationships change with respect to another variable, such as time.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="img/image6-24.jpg"></p>
+</div></div>
+</section>
+<section id="reference" class="slide level2">
+<h2>Reference</h2>
+<p><a href="https://www.axismaps.com/guide/proportional-symbols">Proportional Symbols</a></p>
+<p><a href="https://www.axismaps.com/guide/choropleth">Choropleth Maps</a></p>
+<p><a href="https://www.axismaps.com/guide/dot-density">Dot Density Maps</a></p>
+<p><a href="https://www.axismaps.com/guide/data-classification">The Basics of Data Classification</a></p>
+<p><a href="https://www.axismaps.com/guide/should-a-map-be-interactive">Should a map be interactive?</a></p>
+<p><a href="https://www.axismaps.com/guide/map-interaction">Map interaction</a></p>
 
 
 </section>

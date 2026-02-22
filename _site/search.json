@@ -128,35 +128,35 @@
   {
     "objectID": "outline/Lesson07_outline.html",
     "href": "outline/Lesson07_outline.html",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
     "section": "",
     "text": "Introducing map\nProperties of geographical data\nTypology of map\nThematic mapping techniques\n\nProportional symbol map\nChoropleth map\nData Classification\n\nAlternative mapping techniques"
   },
   {
     "objectID": "outline/Lesson07_outline.html#lesson-outline",
     "href": "outline/Lesson07_outline.html#lesson-outline",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
     "section": "",
     "text": "Introducing map\nProperties of geographical data\nTypology of map\nThematic mapping techniques\n\nProportional symbol map\nChoropleth map\nData Classification\n\nAlternative mapping techniques"
   },
   {
     "objectID": "outline/Lesson07_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson07_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 8: Visualising and Analysing Geographic Data slides."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 7: Visualising and Analysing Geographic Data slides."
   },
   {
     "objectID": "outline/Lesson07_outline.html#readings",
     "href": "outline/Lesson07_outline.html#readings",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
     "section": "Readings",
     "text": "Readings\n\nCore Reading\n\nThe Concept of Map Symbols\nProportional Symbols\nChoropleth map\nChoropleth Maps\nThe Basics of Data Classification\n\n\n\nAdditional Readings\n\nChoropleth Maps – A Guide to Data Classification\nBivariate Choropleth\nValue-by-alpha maps\nWhat to consider when creating choropleth maps\nChoropleth Mapping with Exploratory Data Analysis\nCartogram Maps: Data Visualization with Exaggeration\nCartogram\nWhen Maps Shouldn’t Be Maps\nWhat to consider when creating choropleth maps"
   },
   {
     "objectID": "outline/Lesson07_outline.html#visualising-geographic-data-tableau-methods",
     "href": "outline/Lesson07_outline.html#visualising-geographic-data-tableau-methods",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
     "section": "Visualising Geographic Data: Tableau Methods",
     "text": "Visualising Geographic Data: Tableau Methods\n\nBasic Tutorial\n\nMaps and Geographic Data Analysis in Tableau. This chapter from the User Guide of Tableau provide a comprehensive overview of the mapping concepts and Tableau methods. I strongly recommend you to read the chapter at least once.\nLive Training: Mapping\nGetting Started with Mapping\nMaps in Tableau\nEditing Unrecognized Location\nSpatial Files\nThe Density Mark Type (Heat maps)\nExpanding Tableau’s Mapping Capabilities\nCustom Geocoding\nPolygon Maps\nBackground Images\n\n\n\nBeyond the Basic\n\nAdvanced Mapping with Tableau\n10 ways to add value to your dashboards with maps\n3 Ways to Make Magnificent Maps in Tableau\nHow to Make Trellis / Tile / Small Multiple Maps in Tableau"
   },
@@ -285,6 +285,244 @@
     "title": "Lesson 1: Introduction to Visual Analytics",
     "section": "All About Tableau",
     "text": "All About Tableau\n\nThings about Tableau you must know!\n\nPolaris: A System for Query, Analysis,and Visualization of Multidimensional Relational Databases\nTableau Technology\nShow Me: Automatic Presentation for Visual Analysis\nWhitepaper: Visual Analysis for Everyone\nAnalytics Best Practices in Tableau\n\n\n\nLearning Tableau\n\nGetting Started\nTableau Interface\nGetting Started with Visual Analytics\nFormatting\nThe Formatting Pane\nReference lines\nGetting Started with Data also self-learn the remaining videos under ’‘’Connecting to Data’’’\nGetting Started with Tableau Prep Builder. This is a brand-new product from Tableau designed to help everyone quickly and confidently combine, shape, and clean their data for analysis. You can learn more about Tableau Data Prep here. You are encouraged to view all the 12 videos under ’‘’Tableau Prep’’’."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#what-will-you-learn-from-this-lesson",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#what-will-you-learn-from-this-lesson",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "What will you learn from this lesson?",
+    "text": "What will you learn from this lesson?\n\nIntroducing map\nProperties of geographical data\n\nGeographical data models\nMap projections\n\nTypology of maps\n\nReference maps\nThematic maps\n\nProportional Symbol Map\nChoropleth Map"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#what-is-a-map",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#what-is-a-map",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "What is a Map?",
+    "text": "What is a Map?\nA map is a model of real world depict by a collection of cartographic symbols or/and visual abstraction."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#what-is-a-map-1",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#what-is-a-map-1",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "What is a Map?",
+    "text": "What is a Map?\nAn interface between geographical data and map users."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#a-map-and-geographical-data",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#a-map-and-geographical-data",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "A Map and Geographical Data",
+    "text": "A Map and Geographical Data"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#types-of-geographical-data",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#types-of-geographical-data",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Types of geographical data",
+    "text": "Types of geographical data"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#how-location-information-are-registered",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#how-location-information-are-registered",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "How location information are registered?",
+    "text": "How location information are registered?\n\nGeographic Coordinates Systems\nProjected Coordinates Systems"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#how-location-information-are-registered-1",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#how-location-information-are-registered-1",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "How location information are registered?",
+    "text": "How location information are registered?\nGeographic Coordinates Systems\n\n\n\nA geographic coordinate system defines two-dimensional coordinates based on the Earth’s surface. It has an angular unit of measure, prime meridian and datum (which contains the spheroid).\nFor example, WGS84, NAD27 and NAD83.\n\n\nSource: Geographic Coodinate Ststem@wiki"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#how-location-information-are-registered-2",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#how-location-information-are-registered-2",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "How location information are registered?",
+    "text": "How location information are registered?\nProjected Coordinates Systems\n\n\n\nA projected coordinate system is defined on a flat, two-dimensional surface.\nA projected coordinate system, unlike a geographic one, has the advantage that lengths, angles, and areas are constant across the two dimensions. This is not true when working in a geographic coordinate system.\nA projected coordinate system is always based on a geographic coordinate system that can use a sphere or spheroid.\n\n\n\n\nSource: Map Projection@wiki"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo serve as a piece of historical archive.\n\n\n\nSource: Battle of Singapore\n\n\nA map serves as a record of the physical and cultural environment at a particular time. For example, the map above shows Singapore in early February 1942; the disposition of Allied ground forces is in red. The main north–south transport corridor, formed by Woodlands Road and the railway, connecting the city centre (in the southeast) and The Causeway (central north), is the black line running through the centre of the island. Sarimbun is at the north west corner of the island; Bukit Timah is located close to the centre on the transport corridor; Pasir Panjang is between the city centre and the southwest corner of the island and the “Jurong Line” is the bracket-like shape in red, just west of Woodlands Roadland use allocation on Singapore Concept Plan in 2001."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map-1",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map-1",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo support navigation (i.e. Google Map)."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map-2",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map-2",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo support navigation (i.e. sea chart of Singapore)\n\n\n\nSource: Singapore electronic navigational chart"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map-3",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map-3",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo reveal spatial patterns.\n\n\n\nReference: John Snow Cholera Map"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map-4",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#the-purpose-of-a-map-4",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo describe spatial relationship."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#typology-of-maps",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#typology-of-maps",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Typology of Maps",
+    "text": "Typology of Maps"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#thematic-mapping-principles-and-methods",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#thematic-mapping-principles-and-methods",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Thematic Mapping: Principles and Methods",
+    "text": "Thematic Mapping: Principles and Methods\n\nDisplaying\n\nQualitative data\nQuantitative data\n\nChoosing -Appropriate classification method for displaying data\n\nAppropriate number of classes\n\nTechniques in data analysis\n\nUsing the classification histogram\nNormalizing data"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#qualitative-thematic-maps",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#qualitative-thematic-maps",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Qualitative Thematic Maps",
+    "text": "Qualitative Thematic Maps\nVisual Variables and Cartographic Symbols\n\n\n\nQualitative visual variables are used for nominal scale data.\nThe goal of qualitative visual variables is to show how entities differ from each other.\nThe visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.\n\nFigure on the right for examples of these four ordinal visual variables used each in point, linear and areal symbols."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#qualitative-thematic-map",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#qualitative-thematic-map",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Qualitative Thematic Map",
+    "text": "Qualitative Thematic Map\nPoint symbol map\n\n\n\nDifferent point symbols are used to represent school types."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#qualitative-thematic-map-1",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#qualitative-thematic-map-1",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Qualitative Thematic Map",
+    "text": "Qualitative Thematic Map\nLine symbol map\n\n\n\nA road map is an example of a thematic map. It shows the road network of an area. In this map, lines with different colour intensity and tickness are used to differentiate hierarchy of roads."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#qualitative-thematic-map-2",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#qualitative-thematic-map-2",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Qualitative Thematic Map",
+    "text": "Qualitative Thematic Map\nArea map\n\n\n\nLand use map below is a good example of a discrete thematic map. In this map, different colours are use to represent different land use types."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#quantitative-thematic-map",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#quantitative-thematic-map",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Quantitative Thematic Map",
+    "text": "Quantitative Thematic Map\nVisual Variables and Cartographic Symbols\n\n\n\nQuantitative visual variables are used to display ordinal, interval or ratio scale data.\n\nThe goal of the quantitative visual variable is to show relative magnitude or order between entities.\nThe visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.\n\nFigure on the right shows of these four ordinal visual variables used each in point, linear and areal symbols."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#proportional-symbol-map",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#proportional-symbol-map",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Proportional Symbol Map",
+    "text": "Proportional Symbol Map\n\nThe proportional symbol technique uses symbols of different sizes to represent data associated with different areas or locations within the map.\n\n\n\nThe proportional symbol technique uses symbols of different sizes to represent data associated with different areas or locations within the map. For example, the proportional maps above use circle with different sizes to represent millions of people. There are two types of point features that are typically depicted with proportional symbols: features for which the data represents a geographic position directly (e.g., gallons of oil from individual oil wells), and features that are geographic areas to which data are aggregated and the data magnitudes are assigned to a representative point within the area (e.g., the geographic centroid of a state as in the examples above). In either case, the area of the symbol is scaled to represent the data magnitude, sometimes with a bit of exaggeration to adjust for a general tendency of human vision to underestimate differences in area. A variant on this direct data-to-symbol scaling groups values into categories first, then scales the symbol to represent the mean for the category, assigning a symbol to each place to represent the category range that the mean for the place falls within"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#dot-density-map",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#dot-density-map",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Dot Density Map",
+    "text": "Dot Density Map\nA dot-density map is a type of thematic map that uses dots or other symbols on the map to show the values of one or more numeric data fields. Each dot on a dot-density map represents some amount of data.\n\n\nOne dot represent 100 households.\n\n\nReference: Dot distribution map at wiki and Dot Density Maps"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#choropleth-map",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#choropleth-map",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Choropleth Map",
+    "text": "Choropleth Map\nA choropleth map is a type of thematic map in which areas are shaded or patterned in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area, such as population or per capita income."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-VisGeo.html#reference",
+    "href": "lesson/Lesson07/Lesson07-VisGeo.html#reference",
+    "title": "Lesson 7: Visualising and Analysing Geographic Data",
+    "section": "Reference",
+    "text": "Reference\nProportional Symbols\nChoropleth Maps\nDot Density Maps\nThe Basics of Data Classification\nShould a map be interactive?\nMap interaction"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#content",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#content",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Content",
+    "text": "Content\nWhat will you learn from this lesson?\n\nUnderstand the characteristics of multidimensional data\nVisual analytics techniques and tools for visualising and analysing multidimensional continuous data\nVisual analytics techniques and tools for visualising and analysing multidimensional categorical data\nSensing both categorical and continuous multidimensional data\nMultidimensional data analysis best practices\n\n\nIn this lesson, I am going to share with you a collection of visual multivariate analysis techniques."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#visual-analytics-techniques",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#visual-analytics-techniques",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Visual analytics techniques",
+    "text": "Visual analytics techniques\n\nScatterplot Matrix\nTernary plot\nGlyphs\nParallel coordinates\nHeatmap\n\n\nThere are many Visual Multivariate Analysis technqiues. In this lesson, I am going share with you five popular one. They are:"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#introducing-multidimensional-data",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#introducing-multidimensional-data",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Introducing Multidimensional Data",
+    "text": "Introducing Multidimensional Data\nWine data set\nThere are 13 variables in this data set. 11 of them are in continuous data type, one in ordinal scale and one in nominal scale.\n\n\n\n\n\n\nfixed acidity\nvolatile acidity\ncitric acid\nresidual sugar\nchlorides\nfree sulfur dioxide\ntotal sulfur dioxide\ndensity\npH\nsulphates\nalcohol\nquality\ntype\n\n\n\n\n7.4\n0.70\n0.00\n1.9\n0.076\n11\n34\n0.9978\n3.51\n0.56\n9.4\n5\nred\n\n\n7.8\n0.88\n0.00\n2.6\n0.098\n25\n67\n0.9968\n3.20\n0.68\n9.8\n5\nred\n\n\n7.8\n0.76\n0.04\n2.3\n0.092\n15\n54\n0.9970\n3.26\n0.65\n9.8\n5\nred\n\n\n11.2\n0.28\n0.56\n1.9\n0.075\n17\n60\n0.9980\n3.16\n0.58\n9.8\n6\nred\n\n\n7.4\n0.70\n0.00\n1.9\n0.076\n11\n34\n0.9978\n3.51\n0.56\n9.4\n5\nred\n\n\n7.4\n0.66\n0.00\n1.8\n0.075\n13\n40\n0.9978\n3.51\n0.56\n9.4\n5\nred\n\n\n\n\n\n\n\nSource: UCI Machine Learning Repository\n\n\nTable in this slide shows a typical multivariate data sets. This is the popular wine quality data from UCI Machine Learning Repository. It consists of 13 variables in this data set. The first 11 variables are in continuous data type. The quality and type variables are in ordinal scale and nominal scale respectively."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#scatterplot-matrix",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#scatterplot-matrix",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Scatterplot Matrix",
+    "text": "Scatterplot Matrix\n\n\n\nScatterplot matrix (also known as correlation matrix) is a graphical method used to reveal the relationship between multiple variables pairwisely.\n\n\n\n\n\nEach black dot in the scatterplot matrix represents an observation in the data table."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#correlogram",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#correlogram",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Correlogram",
+    "text": "Correlogram\n\n\n\nCorrelogram uses visual geometrics such as ellipse, circle, square, and bars to replace the scatterplot in correlation matrix.\nIt is very useful to reveal pair-relationships between variables in a large correlation matrix.\nIn this plot, correlation coefficients is colored according to the value.\n\n\n\n\n\nFor positive correlation, the colour intensity change from light blue to dark blue when the correlation coefficient values increases from 0 to 1. For negative correlation, the colour intensity change from light red to dark red when the correlation coefficient values increase from 0 to -1. Besides colour, the shape and direction of the ellipse also used to map the correlation coefficient. For example, the direction of the ellipses indicate positive or negative correlation and thin ellipses are shown paired variables with strong linear correlation."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#beyond-visualising-variables-pairwisely",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#beyond-visualising-variables-pairwisely",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Beyond Visualising Variables Pairwisely",
+    "text": "Beyond Visualising Variables Pairwisely\nThe data"
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#ternary-plot",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#ternary-plot",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Ternary Plot",
+    "text": "Ternary Plot\n\n\n\nA ternary plot (also known as ternary graph, triangle plot, simplex plot, Gibbs triangle or de Finetti diagram) is a barycentric plot on three variables which sum to a constant, usually in percentage.\nIt graphically depicts the ratios of the three variables as positions in an equilateral triangle."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data-heatmap-method",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data-heatmap-method",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Visualising and Analysing Multivariate Data: Heatmap method",
+    "text": "Visualising and Analysing Multivariate Data: Heatmap method\n\n\n\nA heat map (or heatmap) is a graphical representation of data where the individual values contained in a matrix are represented as colors.\n\n\n\n\n\n\nWhen applied to a tabular format, heatmaps are useful for cross-examining multivariate data, through placing variables in the columns and observation (or records) in row and colouring the cells within the table.\nHeatmaps are good for showing variance across multiple variables, revealing any patterns, displaying whether any variables are similar to each other, and for detecting if any correlations exist in-between them.\nIt is important to note that when the values are all positive or all negative, a colour scheme with different intensity should be used. On the other hand, if the values are in both positive and negative, then, diverging colour scheme should be used."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Visualising and Analysing Multivariate Data",
+    "text": "Visualising and Analysing Multivariate Data\nParallel Coordinates Plot Method\nParallel Coordinates plot or Parallel plot allows to compare the feature of several individual observations on a set of numeric variables.\n\n\nEach vertical bar represents a variable and usually has its own scale. (The units can even be different). Values are then plotted as series of lines connected across each axis. Similar to heatmap, interactivity should be used to complete the data exploration and analysis when using parallel coordinates plot."
+  },
+  {
+    "objectID": "lesson/Lesson05/Lesson05-VMA.html#reference",
+    "href": "lesson/Lesson05/Lesson05-VMA.html#reference",
+    "title": "Lesson 5: Visual Multivariate Analysis",
+    "section": "Reference",
+    "text": "Reference\n\nRadar Chart.\nTernary plot, this and this.\nFriendly, M (2002) “Corrgrams: Exploratory Displays for Correlation Matrices” The American Statistician, Vol. 56, No. 4, pp. 316-324."
   },
   {
     "objectID": "lesson/Lesson03/Lesson03-Analytical Interaction and Animation.html#what-will-you-learn-from-this-lesson",
@@ -511,6 +749,69 @@
     "text": "Highly recommended blogs\n\nPerceptual Edge\nJunk Charts\nStatistical Graphics and more\nEagerEyes\nVisualizing Economics\nThe Global Sociology Blog\n\n\nThis slide provides you the links to two highly recommended data visualisation blogs. I strongly encourage students to visit bookmark them and visit them often not only during these course but also when you go our to practice."
   },
   {
+    "objectID": "Assign/Assign1.html",
+    "href": "Assign/Assign1.html",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "NoteCreating Enlightening and Truthful Data Visualisations Using Survey Data\n\n\n\nCreating enlightening and truthful data visualisations requires careful attention to accuracy, transparency, and effective communication. High-quality visualisations not only present data clearly and attractively, but also enable audiences to understand patterns, relationships, and insights quickly and correctly. This assignment emphasises ethical and analytical approaches to visualising survey data."
+  },
+  {
+    "objectID": "Assign/Assign1.html#overview",
+    "href": "Assign/Assign1.html#overview",
+    "title": "Assignment 1",
+    "section": "Overview",
+    "text": "Overview\nThis handout provides the context, task, expectations and grading criteria of Assignment 1. Students must review and understand them before getting started with the take-home exercise."
+  },
+  {
+    "objectID": "Assign/Assign1.html#setting-the-scene",
+    "href": "Assign/Assign1.html#setting-the-scene",
+    "title": "Assignment 1",
+    "section": "Setting the scene",
+    "text": "Setting the scene\nAn online questionnaire survey was conducted from March to May 2023 to collect data on factors affecting learning performances of students at the University of Education - Vietnam National University, Hanoi. The questionnaire comprises of 22 questions. They are divided into to groups.\n\nGroup A includes demographic variables such as gender, course, ethnicity, parents’ qualifications and occupations, family’s economic status, and the motivation behind choosing their current major, and\nGroup B comprises questions about the student’s perceptions and assessments of the lecturers and university, addressing their adaptation to the learning environment and university instructional methods, the level of lecturer support, quality of teaching lecturers, adequacy of university facilities, appropriateness of training curriculum, and competition’s level within classrooms and the influence of peers on learning.\n\nThe questionnaire was designed on Google Forms and sent to students and alumni. The sample comprised students who were studying or had graduated from the university. A total of 2238 individuals voluntarily participated and responded to the survey. After cleaning the raw survey data, the final data set consists of 2170 responses.\nThe data set and its cookbook are available for download at Mendeley Data."
+  },
+  {
+    "objectID": "Assign/Assign1.html#the-task",
+    "href": "Assign/Assign1.html#the-task",
+    "title": "Assignment 1",
+    "section": "The Task",
+    "text": "The Task\nFor this assignment, you are required to apply appropriate visuall Analytics methods to reveal and communicate key observations derived from the analysis. The observations should be presented in at least eight and no more than ten Tableau dahsboads.\nThe specific tasks of this assignment are:\n\nApplying appropriate univariate data visualisation to show the profile of the respondents.\nApplying appropriate survey data visualisation to reveal responses of the behaviour questions.\nApply appropriate bivariate data visualisation to show the factors affecting learning performance."
+  },
+  {
+    "objectID": "Assign/Assign1.html#the-designing-tool",
+    "href": "Assign/Assign1.html#the-designing-tool",
+    "title": "Assignment 1",
+    "section": "The Designing Tool",
+    "text": "The Designing Tool\nThe data visualisation must be prepared by using Tableau Desktop Professional Edition and published on Tableau Public."
+  },
+  {
+    "objectID": "Assign/Assign1.html#the-write-up",
+    "href": "Assign/Assign1.html#the-write-up",
+    "title": "Assignment 1",
+    "section": "The Write-up",
+    "text": "The Write-up\nThe write-up of the take-home exercise should include but not limited to the followings:\n\nA reproducible description of the procedures used to prepare the analytical visualisation.\nA write-up of no more than 150 words per each data visualisation, describing and discussing the patterns reveal by each visualisation prepared."
+  },
+  {
+    "objectID": "Assign/Assign1.html#grading-criteria",
+    "href": "Assign/Assign1.html#grading-criteria",
+    "title": "Assignment 1",
+    "section": "Grading Criteria",
+    "text": "Grading Criteria\nThis assignment will be graded by using the following criteria:\n\nData wrangling (20 marks): This is an important aspect of visual analytics. You will be assessed on your ability to employ appropriate Tableau functions to import, extract, clean, transform and process data. Besides assessing your ability to use the Tableau functions, this criterion also includes your ability to clean and derive appropriate variables to meet the visual analysis need.\n\nVisual Analysis (30 marks): In this exercise, you are expected to utilise the visual analytics methods and design best practices introduced in class, along with the Tableau methods learned during the in-class exercises, to perform your analysis. You will be assessed on your ability to apply these methods correctly and to provide accurate interpretations and discussions of the analysis results.\n\nVisual Communication (20 marks): In this section, your ability to effectively communicate visual analysis results through user-friendly visual representations will be assessed. Since this course is focused on visual analysis, it is crucial that you demonstrate proficiency in using appropriate visualization techniques to clearly convey the findings of your analysis.\nReproducibility (15 marks): This is a key learning outcome of this course. You will be assessed on your ability to thoroughly document the data visualisation design procedures.\nBonus (15 marks): Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data. The methods used must be visual analytics in nature."
+  },
+  {
+    "objectID": "Assign/Assign1.html#submission-instructions",
+    "href": "Assign/Assign1.html#submission-instructions",
+    "title": "Assignment 1",
+    "section": "Submission Instructions",
+    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the assignment and prepare submission individually.\nStudents are required to The specific submission instructions are as follows:\n\nPublish the data visualisation report on Tableau Pulic and provide the url on eLearn. The report must be in Tableau Story format.\nUpload the Tableau Workbook of the assignment submission on eLearn, and\nupload the MS Word version of the write-up of the assignment on eLearn. It should include but not limited to the write-up requirements above.\n\n\nSubmission date\nThe completed take-home exercise is due on 22th February 2026 (Sunday) by 11:59pm mid-night."
+  },
+  {
+    "objectID": "Assign/Assign1.html#source",
+    "href": "Assign/Assign1.html#source",
+    "title": "Assignment 1",
+    "section": "Source",
+    "text": "Source\nNgoc Le, Diep (2024), “Dataset about VNU students”, Mendeley Data, V1, doi: 10.17632/23ppcdbmhc.1"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -698,6 +999,244 @@
     "title": "Lesson 2: Designing Graphs to Enlighten",
     "section": "Highly recommended blog",
     "text": "Highly recommended blog\n\nJunk Charts\nPerceptual Edge\nEagerEyes\nStatistical Graphics and more\nVisualizing data\nVisualizing Economics"
+  },
+  {
+    "objectID": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#what-will-you-learn-from-this-lesson",
+    "href": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#what-will-you-learn-from-this-lesson",
+    "title": "Lesson 4: Fundamentals of Visual Analytics",
+    "section": "What will you learn from this lesson?",
+    "text": "What will you learn from this lesson?\n\n\nVisual Analytics for Knowledge Discovery\nVisual Analytics Approach for Statistical Testing\nVisual Analytics for Building Better Models\nVisualising Uncertainty\nVariation and Its Discontents\n\n\n\nIn this lesson, I am going to share with you how visual analytics approach can be used to complement conventional statistical testing and model building. Then, We will examine methods for visualising uncertainty. Lastly, I will introduce you to funnel plot, a visual method specially designed to provide a fare comparison among entities in a group."
+  },
+  {
+    "objectID": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#visually-analytics-for-knowledge-discovery",
+    "href": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#visually-analytics-for-knowledge-discovery",
+    "title": "Lesson 4: Fundamentals of Visual Analytics",
+    "section": "Visually Analytics for Knowledge Discovery",
+    "text": "Visually Analytics for Knowledge Discovery\nMotivation: To combine data visualisation and statistical modeling.\n\n\nThis slide highlight the important roles play by visual analytics in the knowledge discovery framework.\nBefore building model, visual analytics can be used to provide better understanding of the variables. These information can be very useful in the subsequent model building process. For example, appropriately designed visual analytics can be used to reveals if there is sign of multicolinearity.\nAfter calibrating the model, visual analytics can be used to reveal the model output for example to check if the model conform to a specific statistical assumption."
+  },
+  {
+    "objectID": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#visualising-uncertainty",
+    "href": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#visualising-uncertainty",
+    "title": "Lesson 4: Fundamentals of Visual Analytics",
+    "section": "Visualising Uncertainty",
+    "text": "Visualising Uncertainty\nWhy it is important?\n\n\n\nOne of the most challenging aspects of data visualization is the visualization of uncertainty.\n\n\n\n\n\nSource: Chart 61, LABOUR FORCE IN SINGAPORE 2019, pg. 52.\n\n\nOne of the most challenging aspects of visual analytics is the visualisation of uncertainty. When we see data point drawn in a specific location, we tend to interpret it as a precise representation of the true value. It is difficult to conceive that a data point could actually lie somewhere it hasn’t been drawn. Yet this scenario is ubiquitous in data visualisation. Nearly every dataset we work with has some uncertainty, and whether and how we choose to represent this uncertainty can make a major difference in how accurately our audience perceives the meaning of the data.\nTwo commonly used approaches to indicate uncertainty are error bars and confidence bands. In this section, we will examine the basic concepts and design pricinples of these methods."
+  },
+  {
+    "objectID": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#variation-and-its-discontents",
+    "href": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#variation-and-its-discontents",
+    "title": "Lesson 4: Fundamentals of Visual Analytics",
+    "section": "Variation and Its Discontents",
+    "text": "Variation and Its Discontents\nRandom and unfair comparisons\n\n\nReference: Variation and its discontents\n\n\nCentral to quantitative data analysis is an understanding of variation. When we measure multiple occurrences of things to determine how and to what extent they differ, we’re examining variation. Some variation is random and some is caused by factors that we can attempt to identify and perhaps control. Random variation consists of differences in measures that occur routinely, without a specific cause. We should note random variation and move on, because nothing can be done about it. It is noise. It tells us nothing that requires a response.\nInstances of non-random variation are signals; they tell us something useful and provide opportunities for action. Signals that indicate poor performance—an undesirable state—can perhaps be reduced by controlling the causes. Signals that indicate an especially good state of affairs can provide useful insights and opportunities for improvement.\nDespite the significance of variation, relatively few people who work with data in most organizations understand it, especially the nature of randomness. This leads to false conclusions and poor decisions, especially when comparing measures of performance within a set of like entities (e.g., countries or companies). Most organizations spend too much time examining noise: the cacophony of random variation. Learning to distinguish signals from the noise is a fundamental skill of data analysis and performance monitoring. In this article, we’ll take a look at a special version of a scatter plot, called a funnel plot (not to be confused with a funnel chart), which is designed to filter out the noise and shine a spotlight on meaningful variation when we compare performance among entities in a group. Funnel plots address the fact that entities with relatively few occurrences of the thing being measured (a small sample), when compared to entities with many occurrences (a large sample), exhibit a greater degree of random variation, which must be taken into account when comparing them. A little later we’ll take a look at this problem and the solution that funnel plots provide in relation to healthcare data, but first let’s get more familiar with the effects of sample size on randomness.\nConsider the following display (a caterpillar plot) of actual healthcare data. Each data point represents a hospital, with 260 in total. The values are mortality rates following surgeries and the solid horizontal line represents the mean.\nThe sample sizes (number of surgeries reported by each hospital) on which this graph is based range from 7 to 3,151. For this reason it isn’t appropriate to rank the hospitals by mortality rate. The ranking suggests a relationship of relative performance that cannot be determined by the data.\nImagine that, unlike the anonymous version of the graph above, each data point is labeled with the hospital’s name. Can you hear the screams of surgeons from the hospitals with the highest mortality rates in the 4th quartile section of the chart? Can you see the puffed up egos of the surgeons who work at the hospitals with mortality rates of zero in the 1st quartile section? One of the hospitals with a zero mortality rate provided a sample of only seven surgeries.\nNote: You might realize, especially if you work with healthcare data similar to the example above, that a fair comparison of hospitals would require the data to be adjusted not just to account for varying sample sizes but also for varying levels of risk. Some surgeries are more risky than others and some patients, due to varying levels of illness, are more at risk than others. We’ll ignore this for now to keep the example simple."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#what-will-you-learn-from-this-lesson",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#what-will-you-learn-from-this-lesson",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "What will you learn from this lesson?",
+    "text": "What will you learn from this lesson?\n\n\nCharacteristics of time-series data\nClassic ways of graphing time\nTime-series patterns\nTime-series data visualization\nInteractive techniques for time-series data visualisation\n\n\n\nIn this lesson, I am going to share with you methods and best practice for visualising and analysing time-series data. It is organised into five main sections. First, we will examine different format of time series data. This is followed by a review of selected inspiring data visualisation for revealing time series patterns. In section three, we will examine different time-series patterns graphically. In section 4, I will introduce selected not so commonly used time-series data visualisation techniques. Lastly, in section 5, we will examine how interactivity and animation can be used to enhance visual time-series data discovery."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Characteristics of time-series data",
+    "text": "Characteristics of time-series data\nA typical time-series data table\n\n\nThe data table shows a typical time-series data. The first column contains the time series values in calender month and year. It is important to note that the values must not be in character data type. The next four columns are called time-series variables. They can be categorical or numeric data type."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-1",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-1",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Characteristics of time-series data",
+    "text": "Characteristics of time-series data\nNot so friendly time-series data\n\n\nThe data table in this slide is an example of time-series data which was not organised in machine understandable time-series manner. As shown on the slide earlier, a machine understandable time-series data must be organised in rows and columns whereby of of the column must contain the date/time values. In this example, the data need to be reformatted before they can be visualised."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-2",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-2",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Characteristics of time-series data",
+    "text": "Characteristics of time-series data\nNot so friendly time-series data\n\n\nThis slide shows a typical reporting table with many formatting features such as column sub-total, row sub-total, spacing, rows separators etc. Again, this table need to be tidied before it can be used to build tiem-series visualisation effectively."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-3",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-3",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Characteristics of time-series data",
+    "text": "Characteristics of time-series data\nNot so friendly time-series data\n\n\nThe table on the slide is another good example of not so friendly time-series data set. As you can see, the temporal field was splitted into three columns and the Year and Day fields are in numeric and Month field is in character. Also note that many rows for Year and Month fields were empty. In view of this, this data also need to be tidied before it can be used to build data visualisation."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "A short visual history of time-series graphs",
+    "text": "A short visual history of time-series graphs\nPlayfair’s Commercial and Political Atlas (1786)\n\n\nReference: William Playfair’s trade-balance time-series chart, Commercial and Political Atlas, 1786.\n\n\nIn this section, I am going share with you five very well designed time-series data visualisation and hope they inspired you. The first data visualisation is Playfair’s Commercial and Political Atlas (1786). This is not a typical time-series line graph. As you can see, the author put in conscious effort to shade the space between the import and export curve in order to reveal time interval with trade deficit and time interval with trade surplus."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-1",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-1",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "A short visual history of time-series graphs",
+    "text": "A short visual history of time-series graphs\nPlayfair’s Chewing at One View Chart (1821)\n\n\nReference: William Playfair’s Price of Wheat\n\n\nThis data visualisation is also a creation of William Playfair. It is make up of two graphical methods namely bar chart and line graph. Bar chart was used to show the price trend of the quarter of wheat and line graph was used to reveal wage trends of labour by the week."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-2",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-2",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "A short visual history of time-series graphs",
+    "text": "A short visual history of time-series graphs\nBump Chart shows rank of the most populous cities at each census: 1790-1890\n\n\nAn interactive version here\n\n\nThis data visualisation shows rank of the most populous cities at each census 1790-1890. Instead of using lines, this data visualisation using ellipses. The more recent times were on the left of the data visualisation and the earlier times were on the right. Note that the original data visualisation was static."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-3",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-3",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "A short visual history of time-series graphs",
+    "text": "A short visual history of time-series graphs\nMultiple charts showing records of the Weather in New York City for December, 1912.\n\n\nThis data visualisation shows record of the Weather in New York City for December, 1912. The bold line indicates temperature in degrees Fahrenheit. The light solid line shows wind velocity in miles per hour. The dotted line depicts relative humidity in percentage from readings taken at 8 a.m. and 8 p.m. Arrows portray the prevailing direction of the wind. Initials at the base of the chart show the weather conditions as follows: S, clear; PC, partly cloudy; C, cloudy; R, rain; Sn, snow."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#time-series-graph-that-change-public-understading",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#time-series-graph-that-change-public-understading",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Time-series graph that change public understading",
+    "text": "Time-series graph that change public understading\nThe Hockey Stick Chart\n\n\nReference: Michael E. Mann, Raymond S. Bradley, Malcolm K. Hughes (1999) “Northern hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations”. Geophysical Research Letters, Vol. 26, No. pp. 759-762.\n\n\nHockey stick graphs present the global or hemispherical mean temperature record of the past 500 to 2000 years as shown by quantitative climate reconstructions based on climate proxy records. These reconstructions have consistently shown a slow long term cooling trend changing into relatively rapid warming in the 20th century, with the instrumental temperature record by 2000 exceeding earlier temperatures. It is a good example of how data visualisation can be used to create global awareness of rapid warming in the 20th century."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#time-series-data-patterns",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#time-series-data-patterns",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Time-series data patterns",
+    "text": "Time-series data patterns\n\n\nTrend\nVariability\nRate of change\nCo-variation\nCycles\nExceptions\n\n\n\nIn this section, I am going share with you time-series characteristics reveal visually."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\nNot all line graphs should start at zero!\n\n\n\n\n\n\n\nIn this section, I am going to share with you some tips when we want to visualise time-series data. This slide shows that by keeping the y-axis starts at zero might not be able to reveal time-series patterns or trends effectivelly. Hence, it is important to customise the y-axis in search a way that it can reveal the time-series patterns effectively like the line graph on the right of the slide."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-1",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-1",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\nMultiple lines in a single graph is less effective than trellis line graph\n\n\n\n\n\n\n\nIn order to support effective comparison, sometime trellis line graphs are more functional then a composite line graph as shown on the right of the slide."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-2",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-2",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\nNot all time-series graphs have time on the x-axis\n\n\nSource: Are emerging economies deindustrializing too quickly?.\n\n\nThe connected scatter plot below reveals changes over time by joining each time event points on the scatter plot. The historical trail can be a effective alternative to animation."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-3",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-3",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\nLabel line graph instead of using legend\n\n\n\n\n\n\n\nWhen ever possible, it is more effective to label on the line directly as shown on the line graph on the right instead of using legend."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-4",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-4",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\n\nIn order to support comparison over time effectively, reference line should be used.\n\n\n\nLine chart without reference line\n\n\nLine chart with reference line"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-5",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-5",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\nLine chart with reference band\n\n\nThe reference used don’t have to confine a single line. A confidence interval or quantile range can be used too."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#beyond-line-graph",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#beyond-line-graph",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Beyond Line Graph",
+    "text": "Beyond Line Graph\nControl Chart: An analytical line chart\n\n\nControl charts, also known as Shewhart charts (after Walter A. Shewhart) or process-behavior charts. They are a statistical process control tool used to determine if a manufacturing or business process is in a state of control. Beside the average line, there are two additional lines namely the upper control limit (UCL) and lower control limit (LCL). Any data points located beyond UCL or LCL will be flag out as anomalies."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-i-visualising-change-between-two-points-in-time",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-i-visualising-change-between-two-points-in-time",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge I: Visualising Change between Two Points in Time",
+    "text": "Challenge I: Visualising Change between Two Points in Time\nBar chart method"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#slopegraphs-come-to-rescue",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#slopegraphs-come-to-rescue",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Slopegraphs come to rescue!",
+    "text": "Slopegraphs come to rescue!\n\n\nSlopegraphs compare changes usually over time for a list of nouns located on an ordinal or interval scale.\n\nReference: Slopegraphs for comparing gradients: Slopegraph theory and practice"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge II: Visualising cyclical patterns",
+    "text": "Challenge II: Visualising cyclical patterns\nClassic line graph method"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns-1",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns-1",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge II: Visualising cyclical patterns",
+    "text": "Challenge II: Visualising cyclical patterns\nSolution: Cycle plot\n\n\nReference: Intro to Cycle Plot"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns-2",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns-2",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge II: Visualising cyclical patterns",
+    "text": "Challenge II: Visualising cyclical patterns\nSolution: Sunburst diagram method"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iii-massive-time-series-data",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iii-massive-time-series-data",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge III: Massive Time-series Data",
+    "text": "Challenge III: Massive Time-series Data\nClassic line graph method\n\n\nLine graph will not be effective to reveal high number of time series lines (for example 50)"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iii-massive-time-series-data-1",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iii-massive-time-series-data-1",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge III: Massive Time-series Data",
+    "text": "Challenge III: Massive Time-series Data\nSolution: Horizon graph\n\n\nBy dividing an area chart into consecutive layers, horizon graphs present time-series data in a compact space while preserving resolution.\n\n\n\nReference: Time on the Horizon"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iv-distribution-over-time",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iv-distribution-over-time",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge IV: Distribution over time",
+    "text": "Challenge IV: Distribution over time\n\n\nLine graph method\n\n\nBoxplot method"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#alternative-time-series-data-visualisation-methods-calendar-heatmap",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#alternative-time-series-data-visualisation-methods-calendar-heatmap",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Alternative Time-series Data Visualisation methods: Calendar Heatmap",
+    "text": "Alternative Time-series Data Visualisation methods: Calendar Heatmap\n\n\nIt is a 2-dimensional calendar view that shows a value over time through color coding it, often with warmer colors indicating higher values (hence heatmap).\n\n\n\nSource: Calender heatmap"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#alternative-time-series-data-visualisation-methods",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#alternative-time-series-data-visualisation-methods",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Alternative Time-series Data Visualisation methods",
+    "text": "Alternative Time-series Data Visualisation methods\nStream Graph (also know as ThemeRiver)\n\n\nA streamgraph, or stream graph, is a type of stacked area graph which is displaced around a central axis, resulting in a flowing, organic shape.\n\n\n\nReference: Steam graph"
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#visualising-change-over-time",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#visualising-change-over-time",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "Visualising Change Over Time",
+    "text": "Visualising Change Over Time\nAnimated bubble plot (or motion chart)\n\n\nA motion chart displays changes over time by showing movement within the two-dimensional space and changes in the size and color of the bubbles."
+  },
+  {
+    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#references",
+    "href": "lesson/Lesson06/Lesson06-VisTime.html#references",
+    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
+    "section": "References",
+    "text": "References\nClaus. O. Wilke (2019) Fundamentals of Data Visualisation, O’Reilly. USA. Chapter 13 Visualizing time series and other functions of an independent variable and Chapter 14 Visualizing trends\nControl Chart\nIntroduction to Cycle Plots\nSlopegraphs for comparing gradients: Slopegraph theory and practice\nHorizon Chart"
   },
   {
     "objectID": "lesson.html",
@@ -922,425 +1461,5 @@
     "title": "Tableau Resources",
     "section": "Tableau Tips and Tricks",
     "text": "Tableau Tips and Tricks\n\nRelationships, Joins and Unions in Tableau 2020.2, this Youtube video explains selected data management features introduced in Tableau 2020.2. (updated on 8th Feb 2021)."
-  },
-  {
-    "objectID": "lesson/Lesson04/Lesson04-Fundamentals of Visual Analytics.html#what-will-you-learn-from-this-lesson",
-    "href": "lesson/Lesson04/Lesson04-Fundamentals of Visual Analytics.html#what-will-you-learn-from-this-lesson",
-    "title": "Lesson 4: Fundamentals of Visual Analytics",
-    "section": "What will you learn from this lesson?",
-    "text": "What will you learn from this lesson?\n\n\nVisual Analytics for Knowledge Discovery\nVisual Analytics Approach for Statistical Testing\nVisual Analytics for Building Better Models\nVisualising Uncertainty\nVariation and Its Discontents\n\n\n\nIn this lesson, I am going to share with you how visual analytics approach can be used to complement conventional statistical testing and model building. Then, We will examine methods for visualising uncertainty. Lastly, I will introduce you to funnel plot, a visual method specially designed to provide a fare comparison among entities in a group."
-  },
-  {
-    "objectID": "lesson/Lesson04/Lesson04-Fundamentals of Visual Analytics.html#visually-analytics-for-knowledge-discovery",
-    "href": "lesson/Lesson04/Lesson04-Fundamentals of Visual Analytics.html#visually-analytics-for-knowledge-discovery",
-    "title": "Lesson 4: Fundamentals of Visual Analytics",
-    "section": "Visually Analytics for Knowledge Discovery",
-    "text": "Visually Analytics for Knowledge Discovery\nMotivation: To combine data visualisation and statistical modeling.\n\n\nThis slide highlight the important roles play by visual analytics in the knowledge discovery framework.\nBefore building model, visual analytics can be used to provide better understanding of the variables. These information can be very useful in the subsequent model building process. For example, appropriately designed visual analytics can be used to reveals if there is sign of multicolinearity.\nAfter calibrating the model, visual analytics can be used to reveal the model output for example to check if the model conform to a specific statistical assumption."
-  },
-  {
-    "objectID": "lesson/Lesson04/Lesson04-Fundamentals of Visual Analytics.html#visualising-uncertainty",
-    "href": "lesson/Lesson04/Lesson04-Fundamentals of Visual Analytics.html#visualising-uncertainty",
-    "title": "Lesson 4: Fundamentals of Visual Analytics",
-    "section": "Visualising Uncertainty",
-    "text": "Visualising Uncertainty\nWhy it is important?\n\n\n\nOne of the most challenging aspects of data visualization is the visualization of uncertainty.\n\n\n\n\n\nSource: Chart 61, LABOUR FORCE IN SINGAPORE 2019, pg. 52.\n\n\nOne of the most challenging aspects of visual analytics is the visualisation of uncertainty. When we see data point drawn in a specific location, we tend to interpret it as a precise representation of the true value. It is difficult to conceive that a data point could actually lie somewhere it hasn’t been drawn. Yet this scenario is ubiquitous in data visualisation. Nearly every dataset we work with has some uncertainty, and whether and how we choose to represent this uncertainty can make a major difference in how accurately our audience perceives the meaning of the data.\nTwo commonly used approaches to indicate uncertainty are error bars and confidence bands. In this section, we will examine the basic concepts and design pricinples of these methods."
-  },
-  {
-    "objectID": "lesson/Lesson04/Lesson04-Fundamentals of Visual Analytics.html#variation-and-its-discontents",
-    "href": "lesson/Lesson04/Lesson04-Fundamentals of Visual Analytics.html#variation-and-its-discontents",
-    "title": "Lesson 4: Fundamentals of Visual Analytics",
-    "section": "Variation and Its Discontents",
-    "text": "Variation and Its Discontents\nRandom and unfair comparisons\n\n\nReference: Variation and its discontents\n\n\nCentral to quantitative data analysis is an understanding of variation. When we measure multiple occurrences of things to determine how and to what extent they differ, we’re examining variation. Some variation is random and some is caused by factors that we can attempt to identify and perhaps control. Random variation consists of differences in measures that occur routinely, without a specific cause. We should note random variation and move on, because nothing can be done about it. It is noise. It tells us nothing that requires a response.\nInstances of non-random variation are signals; they tell us something useful and provide opportunities for action. Signals that indicate poor performance—an undesirable state—can perhaps be reduced by controlling the causes. Signals that indicate an especially good state of affairs can provide useful insights and opportunities for improvement.\nDespite the significance of variation, relatively few people who work with data in most organizations understand it, especially the nature of randomness. This leads to false conclusions and poor decisions, especially when comparing measures of performance within a set of like entities (e.g., countries or companies). Most organizations spend too much time examining noise: the cacophony of random variation. Learning to distinguish signals from the noise is a fundamental skill of data analysis and performance monitoring. In this article, we’ll take a look at a special version of a scatter plot, called a funnel plot (not to be confused with a funnel chart), which is designed to filter out the noise and shine a spotlight on meaningful variation when we compare performance among entities in a group. Funnel plots address the fact that entities with relatively few occurrences of the thing being measured (a small sample), when compared to entities with many occurrences (a large sample), exhibit a greater degree of random variation, which must be taken into account when comparing them. A little later we’ll take a look at this problem and the solution that funnel plots provide in relation to healthcare data, but first let’s get more familiar with the effects of sample size on randomness.\nConsider the following display (a caterpillar plot) of actual healthcare data. Each data point represents a hospital, with 260 in total. The values are mortality rates following surgeries and the solid horizontal line represents the mean.\nThe sample sizes (number of surgeries reported by each hospital) on which this graph is based range from 7 to 3,151. For this reason it isn’t appropriate to rank the hospitals by mortality rate. The ranking suggests a relationship of relative performance that cannot be determined by the data.\nImagine that, unlike the anonymous version of the graph above, each data point is labeled with the hospital’s name. Can you hear the screams of surgeons from the hospitals with the highest mortality rates in the 4th quartile section of the chart? Can you see the puffed up egos of the surgeons who work at the hospitals with mortality rates of zero in the 1st quartile section? One of the hospitals with a zero mortality rate provided a sample of only seven surgeries.\nNote: You might realize, especially if you work with healthcare data similar to the example above, that a fair comparison of hospitals would require the data to be adjusted not just to account for varying sample sizes but also for varying levels of risk. Some surgeries are more risky than others and some patients, due to varying levels of illness, are more at risk than others. We’ll ignore this for now to keep the example simple."
-  },
-  {
-    "objectID": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#what-will-you-learn-from-this-lesson",
-    "href": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#what-will-you-learn-from-this-lesson",
-    "title": "Lesson 4: Fundamentals of Visual Analytics",
-    "section": "What will you learn from this lesson?",
-    "text": "What will you learn from this lesson?\n\n\nVisual Analytics for Knowledge Discovery\nVisual Analytics Approach for Statistical Testing\nVisual Analytics for Building Better Models\nVisualising Uncertainty\nVariation and Its Discontents\n\n\n\nIn this lesson, I am going to share with you how visual analytics approach can be used to complement conventional statistical testing and model building. Then, We will examine methods for visualising uncertainty. Lastly, I will introduce you to funnel plot, a visual method specially designed to provide a fare comparison among entities in a group."
-  },
-  {
-    "objectID": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#visually-analytics-for-knowledge-discovery",
-    "href": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#visually-analytics-for-knowledge-discovery",
-    "title": "Lesson 4: Fundamentals of Visual Analytics",
-    "section": "Visually Analytics for Knowledge Discovery",
-    "text": "Visually Analytics for Knowledge Discovery\nMotivation: To combine data visualisation and statistical modeling.\n\n\nThis slide highlight the important roles play by visual analytics in the knowledge discovery framework.\nBefore building model, visual analytics can be used to provide better understanding of the variables. These information can be very useful in the subsequent model building process. For example, appropriately designed visual analytics can be used to reveals if there is sign of multicolinearity.\nAfter calibrating the model, visual analytics can be used to reveal the model output for example to check if the model conform to a specific statistical assumption."
-  },
-  {
-    "objectID": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#visualising-uncertainty",
-    "href": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#visualising-uncertainty",
-    "title": "Lesson 4: Fundamentals of Visual Analytics",
-    "section": "Visualising Uncertainty",
-    "text": "Visualising Uncertainty\nWhy it is important?\n\n\n\nOne of the most challenging aspects of data visualization is the visualization of uncertainty.\n\n\n\n\n\nSource: Chart 61, LABOUR FORCE IN SINGAPORE 2019, pg. 52.\n\n\nOne of the most challenging aspects of visual analytics is the visualisation of uncertainty. When we see data point drawn in a specific location, we tend to interpret it as a precise representation of the true value. It is difficult to conceive that a data point could actually lie somewhere it hasn’t been drawn. Yet this scenario is ubiquitous in data visualisation. Nearly every dataset we work with has some uncertainty, and whether and how we choose to represent this uncertainty can make a major difference in how accurately our audience perceives the meaning of the data.\nTwo commonly used approaches to indicate uncertainty are error bars and confidence bands. In this section, we will examine the basic concepts and design pricinples of these methods."
-  },
-  {
-    "objectID": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#variation-and-its-discontents",
-    "href": "lesson/Lesson04/Lesson04-Fundamentals_of_VA.html#variation-and-its-discontents",
-    "title": "Lesson 4: Fundamentals of Visual Analytics",
-    "section": "Variation and Its Discontents",
-    "text": "Variation and Its Discontents\nRandom and unfair comparisons\n\n\nReference: Variation and its discontents\n\n\nCentral to quantitative data analysis is an understanding of variation. When we measure multiple occurrences of things to determine how and to what extent they differ, we’re examining variation. Some variation is random and some is caused by factors that we can attempt to identify and perhaps control. Random variation consists of differences in measures that occur routinely, without a specific cause. We should note random variation and move on, because nothing can be done about it. It is noise. It tells us nothing that requires a response.\nInstances of non-random variation are signals; they tell us something useful and provide opportunities for action. Signals that indicate poor performance—an undesirable state—can perhaps be reduced by controlling the causes. Signals that indicate an especially good state of affairs can provide useful insights and opportunities for improvement.\nDespite the significance of variation, relatively few people who work with data in most organizations understand it, especially the nature of randomness. This leads to false conclusions and poor decisions, especially when comparing measures of performance within a set of like entities (e.g., countries or companies). Most organizations spend too much time examining noise: the cacophony of random variation. Learning to distinguish signals from the noise is a fundamental skill of data analysis and performance monitoring. In this article, we’ll take a look at a special version of a scatter plot, called a funnel plot (not to be confused with a funnel chart), which is designed to filter out the noise and shine a spotlight on meaningful variation when we compare performance among entities in a group. Funnel plots address the fact that entities with relatively few occurrences of the thing being measured (a small sample), when compared to entities with many occurrences (a large sample), exhibit a greater degree of random variation, which must be taken into account when comparing them. A little later we’ll take a look at this problem and the solution that funnel plots provide in relation to healthcare data, but first let’s get more familiar with the effects of sample size on randomness.\nConsider the following display (a caterpillar plot) of actual healthcare data. Each data point represents a hospital, with 260 in total. The values are mortality rates following surgeries and the solid horizontal line represents the mean.\nThe sample sizes (number of surgeries reported by each hospital) on which this graph is based range from 7 to 3,151. For this reason it isn’t appropriate to rank the hospitals by mortality rate. The ranking suggests a relationship of relative performance that cannot be determined by the data.\nImagine that, unlike the anonymous version of the graph above, each data point is labeled with the hospital’s name. Can you hear the screams of surgeons from the hospitals with the highest mortality rates in the 4th quartile section of the chart? Can you see the puffed up egos of the surgeons who work at the hospitals with mortality rates of zero in the 1st quartile section? One of the hospitals with a zero mortality rate provided a sample of only seven surgeries.\nNote: You might realize, especially if you work with healthcare data similar to the example above, that a fair comparison of hospitals would require the data to be adjusted not just to account for varying sample sizes but also for varying levels of risk. Some surgeries are more risky than others and some patients, due to varying levels of illness, are more at risk than others. We’ll ignore this for now to keep the example simple."
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html",
-    "href": "lesson/Lesson05/Lesson05-VMA.html",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "",
-    "text": "What will you learn from this lesson?\n\nUnderstand the characteristics of multidimensional data\nVisual analytics techniques and tools for visualising and analysing multidimensional continuous data\nVisual analytics techniques and tools for visualising and analysing multidimensional categorical data\nSensing both categorical and continuous multidimensional data\nMultidimensional data analysis best practices\n\n\nIn this lesson, I am going to share with you a collection of visual multivariate analysis techniques."
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#content",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#content",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Content",
-    "text": "Content\nWhat will you learn from this lesson?\n\nUnderstand the characteristics of multidimensional data\nVisual analytics techniques and tools for visualising and analysing multidimensional continuous data\nVisual analytics techniques and tools for visualising and analysing multidimensional categorical data\nSensing both categorical and continuous multidimensional data\nMultidimensional data analysis best practices\n\n\nIn this lesson, I am going to share with you a collection of visual multivariate analysis techniques."
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#visual-analytics-techniques",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#visual-analytics-techniques",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Visual analytics techniques",
-    "text": "Visual analytics techniques\n\nScatterplot Matrix\nTernary plot\nGlyphs\nParallel coordinates\nHeatmap\n\n\nThere are many Visual Multivariate Analysis technqiues. In this lesson, I am going share with you five popular one. They are:"
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#introducing-multidimensional-data",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#introducing-multidimensional-data",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Introducing Multidimensional Data",
-    "text": "Introducing Multidimensional Data\nWine data set\nThere are 13 variables in this data set. 11 of them are in continuous data type, one in ordinal scale and one in nominal scale.\n\n\n\n\n\n\nfixed acidity\nvolatile acidity\ncitric acid\nresidual sugar\nchlorides\nfree sulfur dioxide\ntotal sulfur dioxide\ndensity\npH\nsulphates\nalcohol\nquality\ntype\n\n\n\n\n7.4\n0.70\n0.00\n1.9\n0.076\n11\n34\n0.9978\n3.51\n0.56\n9.4\n5\nred\n\n\n7.8\n0.88\n0.00\n2.6\n0.098\n25\n67\n0.9968\n3.20\n0.68\n9.8\n5\nred\n\n\n7.8\n0.76\n0.04\n2.3\n0.092\n15\n54\n0.9970\n3.26\n0.65\n9.8\n5\nred\n\n\n11.2\n0.28\n0.56\n1.9\n0.075\n17\n60\n0.9980\n3.16\n0.58\n9.8\n6\nred\n\n\n7.4\n0.70\n0.00\n1.9\n0.076\n11\n34\n0.9978\n3.51\n0.56\n9.4\n5\nred\n\n\n7.4\n0.66\n0.00\n1.8\n0.075\n13\n40\n0.9978\n3.51\n0.56\n9.4\n5\nred\n\n\n\n\n\n\n\nSource: UCI Machine Learning Repository\n\n\nTable in this slide shows a typical multivariate data sets. This is the popular wine quality data from UCI Machine Learning Repository. It consists of 13 variables in this data set. The first 11 variables are in continuous data type. The quality and type variables are in ordinal scale and nominal scale respectively."
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#scatterplot-matrix",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#scatterplot-matrix",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Scatterplot Matrix",
-    "text": "Scatterplot Matrix\n\n\n\nScatterplot matrix (also known as correlation matrix) is a graphical method used to reveal the relationship between multiple variables pairwisely.\n\n\n\n\n\nEach black dot in the scatterplot matrix represents an observation in the data table."
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#correlogram",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#correlogram",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Correlogram",
-    "text": "Correlogram\n\n\n\nCorrelogram uses visual geometrics such as ellipse, circle, square, and bars to replace the scatterplot in correlation matrix.\nIt is very useful to reveal pair-relationships between variables in a large correlation matrix.\nIn this plot, correlation coefficients is colored according to the value.\n\n\n\n\n\nFor positive correlation, the colour intensity change from light blue to dark blue when the correlation coefficient values increases from 0 to 1. For negative correlation, the colour intensity change from light red to dark red when the correlation coefficient values increase from 0 to -1. Besides colour, the shape and direction of the ellipse also used to map the correlation coefficient. For example, the direction of the ellipses indicate positive or negative correlation and thin ellipses are shown paired variables with strong linear correlation."
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#beyond-visualising-variables-pairwisely",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#beyond-visualising-variables-pairwisely",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Beyond Visualising Variables Pairwisely",
-    "text": "Beyond Visualising Variables Pairwisely\nThe data"
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#ternary-plot",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#ternary-plot",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Ternary Plot",
-    "text": "Ternary Plot\n\n\n\nA ternary plot (also known as ternary graph, triangle plot, simplex plot, Gibbs triangle or de Finetti diagram) is a barycentric plot on three variables which sum to a constant, usually in percentage.\nIt graphically depicts the ratios of the three variables as positions in an equilateral triangle."
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data-heatmap-method",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data-heatmap-method",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Visualising and Analysing Multivariate Data: Heatmap method",
-    "text": "Visualising and Analysing Multivariate Data: Heatmap method\n\n\n\nA heat map (or heatmap) is a graphical representation of data where the individual values contained in a matrix are represented as colors.\n\n\n\n\n\n\nWhen applied to a tabular format, heatmaps are useful for cross-examining multivariate data, through placing variables in the columns and observation (or records) in row and colouring the cells within the table.\nHeatmaps are good for showing variance across multiple variables, revealing any patterns, displaying whether any variables are similar to each other, and for detecting if any correlations exist in-between them.\nIt is important to note that when the values are all positive or all negative, a colour scheme with different intensity should be used. On the other hand, if the values are in both positive and negative, then, diverging colour scheme should be used."
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#visualising-and-analysing-multivariate-data",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Visualising and Analysing Multivariate Data",
-    "text": "Visualising and Analysing Multivariate Data\nParallel Coordinates Plot Method\nParallel Coordinates plot or Parallel plot allows to compare the feature of several individual observations on a set of numeric variables.\n\n\nEach vertical bar represents a variable and usually has its own scale. (The units can even be different). Values are then plotted as series of lines connected across each axis. Similar to heatmap, interactivity should be used to complete the data exploration and analysis when using parallel coordinates plot."
-  },
-  {
-    "objectID": "lesson/Lesson05/Lesson05-VMA.html#reference",
-    "href": "lesson/Lesson05/Lesson05-VMA.html#reference",
-    "title": "Lesson 5: Visual Multivariate Analysis",
-    "section": "Reference",
-    "text": "Reference\n\nRadar Chart.\nTernary plot, this and this.\nFriendly, M (2002) “Corrgrams: Exploratory Displays for Correlation Matrices” The American Statistician, Vol. 56, No. 4, pp. 316-324."
-  },
-  {
-    "objectID": "Assign/Assign1.html",
-    "href": "Assign/Assign1.html",
-    "title": "Assignment 1",
-    "section": "",
-    "text": "NoteCreating Enlightening and Truthful Data Visualisations Using Survey Data\n\n\n\nCreating enlightening and truthful data visualisations requires careful attention to accuracy, transparency, and effective communication. High-quality visualisations not only present data clearly and attractively, but also enable audiences to understand patterns, relationships, and insights quickly and correctly. This assignment emphasises ethical and analytical approaches to visualising survey data."
-  },
-  {
-    "objectID": "Assign/Assign1.html#overview",
-    "href": "Assign/Assign1.html#overview",
-    "title": "Assignment 1",
-    "section": "Overview",
-    "text": "Overview\nThis handout provides the context, task, expectations and grading criteria of Assignment 1. Students must review and understand them before getting started with the take-home exercise."
-  },
-  {
-    "objectID": "Assign/Assign1.html#setting-the-scene",
-    "href": "Assign/Assign1.html#setting-the-scene",
-    "title": "Assignment 1",
-    "section": "Setting the scene",
-    "text": "Setting the scene\nAn online questionnaire survey was conducted from March to May 2023 to collect data on factors affecting learning performances of students at the University of Education - Vietnam National University, Hanoi. The questionnaire comprises of 22 questions. They are divided into to groups.\n\nGroup A includes demographic variables such as gender, course, ethnicity, parents’ qualifications and occupations, family’s economic status, and the motivation behind choosing their current major, and\nGroup B comprises questions about the student’s perceptions and assessments of the lecturers and university, addressing their adaptation to the learning environment and university instructional methods, the level of lecturer support, quality of teaching lecturers, adequacy of university facilities, appropriateness of training curriculum, and competition’s level within classrooms and the influence of peers on learning.\n\nThe questionnaire was designed on Google Forms and sent to students and alumni. The sample comprised students who were studying or had graduated from the university. A total of 2238 individuals voluntarily participated and responded to the survey. After cleaning the raw survey data, the final data set consists of 2170 responses.\nThe data set and its cookbook are available for download at Mendeley Data."
-  },
-  {
-    "objectID": "Assign/Assign1.html#the-task",
-    "href": "Assign/Assign1.html#the-task",
-    "title": "Assignment 1",
-    "section": "The Task",
-    "text": "The Task\nFor this assignment, you are required to apply appropriate visuall Analytics methods to reveal and communicate key observations derived from the analysis. The observations should be presented in at least eight and no more than ten Tableau dahsboads.\nThe specific tasks of this assignment are:\n\nApplying appropriate univariate data visualisation to show the profile of the respondents.\nApplying appropriate survey data visualisation to reveal responses of the behaviour questions.\nApply appropriate bivariate data visualisation to show the factors affecting learning performance."
-  },
-  {
-    "objectID": "Assign/Assign1.html#the-designing-tool",
-    "href": "Assign/Assign1.html#the-designing-tool",
-    "title": "Assignment 1",
-    "section": "The Designing Tool",
-    "text": "The Designing Tool\nThe data visualisation must be prepared by using Tableau Desktop Professional Edition and published on Tableau Public."
-  },
-  {
-    "objectID": "Assign/Assign1.html#the-write-up",
-    "href": "Assign/Assign1.html#the-write-up",
-    "title": "Assignment 1",
-    "section": "The Write-up",
-    "text": "The Write-up\nThe write-up of the take-home exercise should include but not limited to the followings:\n\nA reproducible description of the procedures used to prepare the analytical visualisation.\nA write-up of no more than 150 words per each data visualisation, describing and discussing the patterns reveal by each visualisation prepared."
-  },
-  {
-    "objectID": "Assign/Assign1.html#submission-date",
-    "href": "Assign/Assign1.html#submission-date",
-    "title": "Assignment 1",
-    "section": "Submission date",
-    "text": "Submission date\nThe completed take-home exercise is due on 15th February 2026 (Sunday) by 11:59pm mid-night."
-  },
-  {
-    "objectID": "Assign/Assign1.html#source",
-    "href": "Assign/Assign1.html#source",
-    "title": "Assignment 1",
-    "section": "Source",
-    "text": "Source\nNgoc Le, Diep (2024), “Dataset about VNU students”, Mendeley Data, V1, doi: 10.17632/23ppcdbmhc.1"
-  },
-  {
-    "objectID": "Assign/Assign1.html#grading-criteria",
-    "href": "Assign/Assign1.html#grading-criteria",
-    "title": "Assignment 1",
-    "section": "Grading Criteria",
-    "text": "Grading Criteria\nThis assignment will be graded by using the following criteria:\n\nData wrangling (20 marks): This is an important aspect of visual analytics. You will be assessed on your ability to employ appropriate Tableau functions to import, extract, clean, transform and process data. Besides assessing your ability to use the Tableau functions, this criterion also includes your ability to clean and derive appropriate variables to meet the visual analysis need.\n\nVisual Analysis (30 marks): In this exercise, you are expected to utilise the visual analytics methods and design best practices introduced in class, along with the Tableau methods learned during the in-class exercises, to perform your analysis. You will be assessed on your ability to apply these methods correctly and to provide accurate interpretations and discussions of the analysis results.\n\nVisual Communication (20 marks): In this section, your ability to effectively communicate visual analysis results through user-friendly visual representations will be assessed. Since this course is focused on visual analysis, it is crucial that you demonstrate proficiency in using appropriate visualization techniques to clearly convey the findings of your analysis.\nReproducibility (15 marks): This is a key learning outcome of this course. You will be assessed on your ability to thoroughly document the data visualisation design procedures.\nBonus (15 marks): Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data. The methods used must be visual analytics in nature."
-  },
-  {
-    "objectID": "Assign/Assign1.html#submission-instructions",
-    "href": "Assign/Assign1.html#submission-instructions",
-    "title": "Assignment 1",
-    "section": "Submission Instructions",
-    "text": "Submission Instructions\nThis is an individual assignment. You are required to work on the assignment and prepare submission individually.\nStudents are required to The specific submission instructions are as follows:\n\nPublish the data visualisation report on Tableau Pulic and provide the url on eLearn. The report must be in Tableau Story format.\nUpload the Tableau Workbook of the assignment submission on eLearn, and\nupload the MS Word version of the write-up of the assignment on eLearn. It should include but not limited to the write-up requirements above.\n\n\nSubmission date\nThe completed take-home exercise is due on 22th February 2026 (Sunday) by 11:59pm mid-night."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html",
-    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
-    "section": "",
-    "text": "Characteristics of time-series data\nClassic ways of graphing time\nTime-series patterns\nTime-series data visualization\nInteractive techniques for time-series data visualisation\n\n\n\nIn this lesson, I am going to share with you methods and best practice for visualising and analysing time-series data. It is organised into five main sections. First, we will examine different format of time series data. This is followed by a review of selected inspiring data visualisation for revealing time series patterns. In section three, we will examine different time-series patterns graphically. In section 4, I will introduce selected not so commonly used time-series data visualisation techniques. Lastly, in section 5, we will examine how interactivity and animation can be used to enhance visual time-series data discovery."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#what-will-you-learn-from-this-lesson",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#what-will-you-learn-from-this-lesson",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "What will you learn from this lesson?",
-    "text": "What will you learn from this lesson?\n\n\nCharacteristics of time-series data\nClassic ways of graphing time\nTime-series patterns\nTime-series data visualization\nInteractive techniques for time-series data visualisation\n\n\n\nIn this lesson, I am going to share with you methods and best practice for visualising and analysing time-series data. It is organised into five main sections. First, we will examine different format of time series data. This is followed by a review of selected inspiring data visualisation for revealing time series patterns. In section three, we will examine different time-series patterns graphically. In section 4, I will introduce selected not so commonly used time-series data visualisation techniques. Lastly, in section 5, we will examine how interactivity and animation can be used to enhance visual time-series data discovery."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Characteristics of time-series data",
-    "text": "Characteristics of time-series data\nA typical time-series data table\n\n\nThe data table shows a typical time-series data. The first column contains the time series values in calender month and year. It is important to note that the values must not be in character data type. The next four columns are called time-series variables. They can be categorical or numeric data type."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-1",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-1",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Characteristics of time-series data",
-    "text": "Characteristics of time-series data\nNot so friendly time-series data\n\n\nThe data table in this slide is an example of time-series data which was not organised in machine understandable time-series manner. As shown on the slide earlier, a machine understandable time-series data must be organised in rows and columns whereby of of the column must contain the date/time values. In this example, the data need to be reformatted before they can be visualised."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-2",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-2",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Characteristics of time-series data",
-    "text": "Characteristics of time-series data\nNot so friendly time-series data\n\n\nThis slide shows a typical reporting table with many formatting features such as column sub-total, row sub-total, spacing, rows separators etc. Again, this table need to be tidied before it can be used to build tiem-series visualisation effectively."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-3",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#characteristics-of-time-series-data-3",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Characteristics of time-series data",
-    "text": "Characteristics of time-series data\nNot so friendly time-series data\n\n\nThe table on the slide is another good example of not so friendly time-series data set. As you can see, the temporal field was splitted into three columns and the Year and Day fields are in numeric and Month field is in character. Also note that many rows for Year and Month fields were empty. In view of this, this data also need to be tidied before it can be used to build data visualisation."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "A short visual history of time-series graphs",
-    "text": "A short visual history of time-series graphs\nPlayfair’s Commercial and Political Atlas (1786)\n\n\nReference: William Playfair’s trade-balance time-series chart, Commercial and Political Atlas, 1786.\n\n\nIn this section, I am going share with you five very well designed time-series data visualisation and hope they inspired you. The first data visualisation is Playfair’s Commercial and Political Atlas (1786). This is not a typical time-series line graph. As you can see, the author put in conscious effort to shade the space between the import and export curve in order to reveal time interval with trade deficit and time interval with trade surplus."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-1",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-1",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "A short visual history of time-series graphs",
-    "text": "A short visual history of time-series graphs\nPlayfair’s Chewing at One View Chart (1821)\n\n\nReference: William Playfair’s Price of Wheat\n\n\nThis data visualisation is also a creation of William Playfair. It is make up of two graphical methods namely bar chart and line graph. Bar chart was used to show the price trend of the quarter of wheat and line graph was used to reveal wage trends of labour by the week."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-2",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-2",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "A short visual history of time-series graphs",
-    "text": "A short visual history of time-series graphs\nBump Chart shows rank of the most populous cities at each census: 1790-1890\n\n\nAn interactive version here\n\n\nThis data visualisation shows rank of the most populous cities at each census 1790-1890. Instead of using lines, this data visualisation using ellipses. The more recent times were on the left of the data visualisation and the earlier times were on the right. Note that the original data visualisation was static."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-3",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#a-short-visual-history-of-time-series-graphs-3",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "A short visual history of time-series graphs",
-    "text": "A short visual history of time-series graphs\nMultiple charts showing records of the Weather in New York City for December, 1912.\n\n\nThis data visualisation shows record of the Weather in New York City for December, 1912. The bold line indicates temperature in degrees Fahrenheit. The light solid line shows wind velocity in miles per hour. The dotted line depicts relative humidity in percentage from readings taken at 8 a.m. and 8 p.m. Arrows portray the prevailing direction of the wind. Initials at the base of the chart show the weather conditions as follows: S, clear; PC, partly cloudy; C, cloudy; R, rain; Sn, snow."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#time-series-graph-that-change-public-understading",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#time-series-graph-that-change-public-understading",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Time-series graph that change public understading",
-    "text": "Time-series graph that change public understading\nThe Hockey Stick Chart\n\n\nReference: Michael E. Mann, Raymond S. Bradley, Malcolm K. Hughes (1999) “Northern hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations”. Geophysical Research Letters, Vol. 26, No. pp. 759-762.\n\n\nHockey stick graphs present the global or hemispherical mean temperature record of the past 500 to 2000 years as shown by quantitative climate reconstructions based on climate proxy records. These reconstructions have consistently shown a slow long term cooling trend changing into relatively rapid warming in the 20th century, with the instrumental temperature record by 2000 exceeding earlier temperatures. It is a good example of how data visualisation can be used to create global awareness of rapid warming in the 20th century."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#time-series-data-patterns",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#time-series-data-patterns",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Time-series data patterns",
-    "text": "Time-series data patterns\n\n\nTrend\nVariability\nRate of change\nCo-variation\nCycles\nExceptions\n\n\n\nIn this section, I am going share with you time-series characteristics reveal visually."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Line graph design tips",
-    "text": "Line graph design tips\nNot all line graphs should start at zero!\n\n\n\n\n\n\n\nIn this section, I am going to share with you some tips when we want to visualise time-series data. This slide shows that by keeping the y-axis starts at zero might not be able to reveal time-series patterns or trends effectivelly. Hence, it is important to customise the y-axis in search a way that it can reveal the time-series patterns effectively like the line graph on the right of the slide."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-1",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-1",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Line graph design tips",
-    "text": "Line graph design tips\nMultiple lines in a single graph is less effective than trellis line graph\n\n\n\n\n\n\n\nIn order to support effective comparison, sometime trellis line graphs are more functional then a composite line graph as shown on the right of the slide."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-2",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-2",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Line graph design tips",
-    "text": "Line graph design tips\nNot all time-series graphs have time on the x-axis\n\n\nSource: Are emerging economies deindustrializing too quickly?.\n\n\nThe connected scatter plot below reveals changes over time by joining each time event points on the scatter plot. The historical trail can be a effective alternative to animation."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-3",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-3",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Line graph design tips",
-    "text": "Line graph design tips\nLabel line graph instead of using legend\n\n\n\n\n\n\n\nWhen ever possible, it is more effective to label on the line directly as shown on the line graph on the right instead of using legend."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-4",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-4",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Line graph design tips",
-    "text": "Line graph design tips\n\nIn order to support comparison over time effectively, reference line should be used.\n\n\n\nLine chart without reference line\n\n\nLine chart with reference line"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-5",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#line-graph-design-tips-5",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Line graph design tips",
-    "text": "Line graph design tips\nLine chart with reference band\n\n\nThe reference used don’t have to confine a single line. A confidence interval or quantile range can be used too."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#beyond-line-graph",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#beyond-line-graph",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Beyond Line Graph",
-    "text": "Beyond Line Graph\nControl Chart: An analytical line chart\n\n\nControl charts, also known as Shewhart charts (after Walter A. Shewhart) or process-behavior charts. They are a statistical process control tool used to determine if a manufacturing or business process is in a state of control. Beside the average line, there are two additional lines namely the upper control limit (UCL) and lower control limit (LCL). Any data points located beyond UCL or LCL will be flag out as anomalies."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-i-visualising-change-between-two-points-in-time",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-i-visualising-change-between-two-points-in-time",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Challenge I: Visualising Change between Two Points in Time",
-    "text": "Challenge I: Visualising Change between Two Points in Time\nBar chart method"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#slopegraphs-come-to-rescue",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#slopegraphs-come-to-rescue",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Slopegraphs come to rescue!",
-    "text": "Slopegraphs come to rescue!\n\n\nSlopegraphs compare changes usually over time for a list of nouns located on an ordinal or interval scale.\n\nReference: Slopegraphs for comparing gradients: Slopegraph theory and practice"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Challenge II: Visualising cyclical patterns",
-    "text": "Challenge II: Visualising cyclical patterns\nClassic line graph method"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns-1",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns-1",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Challenge II: Visualising cyclical patterns",
-    "text": "Challenge II: Visualising cyclical patterns\nSolution: Cycle plot\n\n\nReference: Intro to Cycle Plot"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns-2",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-ii-visualising-cyclical-patterns-2",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Challenge II: Visualising cyclical patterns",
-    "text": "Challenge II: Visualising cyclical patterns\nSolution: Sunburst diagram method"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iii-massive-time-series-data",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iii-massive-time-series-data",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Challenge III: Massive Time-series Data",
-    "text": "Challenge III: Massive Time-series Data\nClassic line graph method\n\n\nLine graph will not be effective to reveal high number of time series lines (for example 50)"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iii-massive-time-series-data-1",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iii-massive-time-series-data-1",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Challenge III: Massive Time-series Data",
-    "text": "Challenge III: Massive Time-series Data\nSolution: Horizon graph\n\n\nBy dividing an area chart into consecutive layers, horizon graphs present time-series data in a compact space while preserving resolution.\n\n\n\nReference: Time on the Horizon"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iv-distribution-over-time",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#challenge-iv-distribution-over-time",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Challenge IV: Distribution over time",
-    "text": "Challenge IV: Distribution over time\n\n\nLine graph method\n\n\nBoxplot method"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#alternative-time-series-data-visualisation-methods-calendar-heatmap",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#alternative-time-series-data-visualisation-methods-calendar-heatmap",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Alternative Time-series Data Visualisation methods: Calendar Heatmap",
-    "text": "Alternative Time-series Data Visualisation methods: Calendar Heatmap\n\n\nIt is a 2-dimensional calendar view that shows a value over time through color coding it, often with warmer colors indicating higher values (hence heatmap).\n\n\n\nSource: Calender heatmap"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#alternative-time-series-data-visualisation-methods",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#alternative-time-series-data-visualisation-methods",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Alternative Time-series Data Visualisation methods",
-    "text": "Alternative Time-series Data Visualisation methods\nStream Graph (also know as ThemeRiver)\n\n\nA streamgraph, or stream graph, is a type of stacked area graph which is displaced around a central axis, resulting in a flowing, organic shape.\n\n\n\nReference: Steam graph"
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#visualising-change-over-time",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#visualising-change-over-time",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "Visualising Change Over Time",
-    "text": "Visualising Change Over Time\nAnimated bubble plot (or motion chart)\n\n\nA motion chart displays changes over time by showing movement within the two-dimensional space and changes in the size and color of the bubbles."
-  },
-  {
-    "objectID": "lesson/Lesson06/Lesson06-VisTime.html#references",
-    "href": "lesson/Lesson06/Lesson06-VisTime.html#references",
-    "title": "Lesson 6: Visualising and Analysing Time-Oriented Data",
-    "section": "References",
-    "text": "References\nClaus. O. Wilke (2019) Fundamentals of Data Visualisation, O’Reilly. USA. Chapter 13 Visualizing time series and other functions of an independent variable and Chapter 14 Visualizing trends\nControl Chart\nIntroduction to Cycle Plots\nSlopegraphs for comparing gradients: Slopegraph theory and practice\nHorizon Chart"
   }
 ]
