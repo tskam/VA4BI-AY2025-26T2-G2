@@ -14,10 +14,9 @@ Consultation booking [link](https://docs.google.com/spreadsheets/d/1Zz3_hqKc4qA5
 
 Zoom [link](https://smu-sg.zoom.us/j/91431787118?pwd=UVoyN3ZrYkRtcVo0WDVER0ZWRFlOQT09)
 
-| Section | Time         | Venue                |
-|---------|--------------|----------------------|
-| G2      | 8:15-11:30AM | SCIS1 SR 3-4         |
-
+| Section | Time         | Venue        |
+|---------|--------------|--------------|
+| G2      | 8:15-11:30AM | SCIS1 SR 3-4 |
 
 ## Other Important Information
 
