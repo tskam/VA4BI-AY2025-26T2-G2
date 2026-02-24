@@ -29,9 +29,7 @@ Assume the role of a graphical editor at a media company. You are required to de
 Your submission must include:
 
 - At least one data visualisation that provides a high-level overview of overall population trends.
-
 - At least one data visualisation that reveals the dynamics of the demographic structure by age cohort and gender.
-
 - At least one data visualisation that illustrates the geographic distribution of demographic structures.
 
 ### Design and Analytical Expectations
