@@ -115,7 +115,10 @@ The poster will be graded based on the following criteria:
 
 ## Sample Projects
 
-Note that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application
+Note that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application.
+
+- [Sample 1](https://vast.cs.umass.edu/VAST%20Challenge%202017/challenges/Mini-Challenge%201/entries/Singapore%20Management%20University%20-%20Yifei/)
+- [Sample 2](https://vast.cs.umass.edu/VAST%20Challenge%202017/challenges/Grand%20Challenge/entries/Singapore%20Management%20University/)
 
 Will be shared later!
 
