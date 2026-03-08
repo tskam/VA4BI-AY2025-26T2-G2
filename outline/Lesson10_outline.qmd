@@ -18,7 +18,7 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 10: Information Dashboard Design]() slides.
+-   [Lesson 10: Information Dashboard Design](../lesson/Lesson10/Lesson10-IDD.html) slides.
 
 ## Reference
 

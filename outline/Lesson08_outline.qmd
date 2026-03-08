@@ -36,7 +36,7 @@ editor: visual
 
 ## Lesson Slides and Hands-on Notes
 
--   [Lesson 9: Visualising and Analysing Network Data]() slides
+-   [Lesson 9: Visualising and Analysing Network Data](../lesson/Lesson08/Lesson08-NetworkVis.html) slides
 
 ## Readings
 
