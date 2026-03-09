@@ -1846,5 +1846,12 @@
     "title": "Visual Analytics Project",
     "section": "",
     "text": "Downloading and installing the latest version of R\n\nFor Windows users, use this link\nFor Mac OS users, use this link\n\nDownloading and installing the latest version of RStudio (if you have yet to do so!)\n\nVisit this link.\n\nDownloading and installing Quarto (if you have yet to do so!)\n\nVisit this link to download Quarto installer.\n\nInstalling git\n\nDownload git at this link and install in your computer.\n\nRegister with github\n\nvisit this link and create a github account.\n\nConnecting git with RStudio\n\nVisit this link for instruction.\n\nSigning up at Vercel\n\nvisit this link and signing up with Vercel.\n\nInstalling usethis R package with RStudio.\nSolving git(GitHub) token issue (optional)\n\nRefer to this article if encountered git and gitHub credential issue when you need to connect a local repo with GitHub.\n\n\n\n\n\nExploring RStudio’s Visual Markdown Editor\nHTML Theming\nMarkdown Basics\nQuarto Websites\nAwsome Quarto"
+  },
+  {
+    "objectID": "VAProject.html#useful-link-to-learn-more-about-quarto",
+    "href": "VAProject.html#useful-link-to-learn-more-about-quarto",
+    "title": "Visual Analytics Project",
+    "section": "Useful link to learn more about Quarto",
+    "text": "Useful link to learn more about Quarto\n\nExploring RStudio’s Visual Markdown Editor\nHTML Theming\nMarkdown Basics\nQuarto Websites\nAwsome Quarto"
   }
 ]
