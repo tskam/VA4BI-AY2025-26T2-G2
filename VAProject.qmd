@@ -113,12 +113,19 @@ The poster will be graded based on the following criteria:
 -   Clear communication of arguments for proposed solution
 -   Craft quality of the solution
 
-## Sample Projects
+## Learning From Seniors
 
 Note that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application.
 
+### Sample Tableau Applications
+
 - [Sample 1](https://vast.cs.umass.edu/VAST%20Challenge%202017/challenges/Mini-Challenge%201/entries/Singapore%20Management%20University%20-%20Yifei/)
 - [Sample 2](https://vast.cs.umass.edu/VAST%20Challenge%202017/challenges/Grand%20Challenge/entries/Singapore%20Management%20University/)
+
+### Sample Project Website
+
+- [SMT201 GIS for Urban Planning Project](https://smt201-ay2024-25t2.netlify.app/gisproject)
+
 
 # Getting Started with Quarto
 
