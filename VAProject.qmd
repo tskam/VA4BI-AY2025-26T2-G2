@@ -113,6 +113,35 @@ The poster will be graded based on the following criteria:
 -   Clear communication of arguments for proposed solution
 -   Craft quality of the solution
 
+## Getting Started with Quarto
+
+-   Downloading and installing the latest version of R
+    -   For Windows users, use this [link](https://cran.r-project.org/bin/windows/base/)
+    -   For Mac OS users, use this [link](https://cran.r-project.org/bin/macosx/)
+-   Downloading and installing the latest version of RStudio (if you have yet to do so!)
+    -   Visit this [link](https://www.rstudio.com/products/rstudio/download/#download).
+-   Downloading and installing Quarto (if you have yet to do so!)
+    -   Visit this [link](https://quarto.org/docs/get-started/) to download Quarto installer.
+-   Installing git
+    -   Download git at this [link](https://git-scm.com/downloads) and install in your computer.
+-   Register with github
+    -   visit this [link](https://github.com/) and create a github account.
+-   Connecting git with RStudio
+    -   Visit this [link](https://r4dsa.netlify.app/posts/2021-05-22-git-in-rstudio/) for instruction.
+-   Signing up at Vercel
+    -   visit this [link](https://vercel.com/) and signing up with Vercel.
+-   Installing [**usethis**](https://usethis.r-lib.org/) R package with RStudio.
+-   Solving git(GitHub) token issue (optional)
+    -   Refer to this [article](https://r4dsa.netlify.app/posts/2021-05-23-git-token/) if encountered git and gitHub credential issue when you need to connect a local repo with GitHub.
+
+### Useful link to learn more about Quarto
+
+-   [Exploring RStudio's Visual Markdown Editor](https://www.rstudio.com/blog/exploring-rstudio-visual-markdown-editor/)
+-   [HTML Theming](https://quarto.org/docs/output-formats/html-themes.html)
+-   [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html)
+-   [Quarto Websites](https://quarto.org/docs/websites/)
+-   [Awsome Quarto](https://github.com/mcanouil/awesome-quarto)
+
 ## Sample Projects
 
 Note that the following examples are for references purposes. You are urge to use your own creativity and innovation to design the application.
@@ -120,7 +149,7 @@ Note that the following examples are for references purposes. You are urge to us
 - [Sample 1](https://vast.cs.umass.edu/VAST%20Challenge%202017/challenges/Mini-Challenge%201/entries/Singapore%20Management%20University%20-%20Yifei/)
 - [Sample 2](https://vast.cs.umass.edu/VAST%20Challenge%202017/challenges/Grand%20Challenge/entries/Singapore%20Management%20University/)
 
-Will be shared later!
+
 
 # Q & A
 
