@@ -15,8 +15,7 @@ editor: visual
 | 8 | 2/3/2026 | Recess week |  |
 | 9 | 9/3/2026 | [Lesson 8: Visualising and Analysing Graph Data](outline/lesson08_outline.html) | Class Test 1 |
 | 10 | 16/3/2026 | [Lesson 9: Visualising and Analysing Text Data](outline/lesson09_outline.html) |  |
-| 11 | 23/3/2026 | No Lesson | Replacement Lesson on 30/3/2026 7:00pm-9:30pm |
+| 11 | 23/3/2026 | No Lesson |  |
 | 12 | 30/3/2026 | [Lesson 10: Information Dashboard Design](outline/lesson10_outline.html) |  |
-| 12 | 30/3/2026 | [Lesson 11: Integrating Visual Analytics and AI](outline/lesson11_outline.html) | Class Test 2 |
-| 13 | 6/4/2026 | [Lesson 12: The Epilog](outline/lesson12_outline.html) |  |
+| 13 | 6/4/2026 | [Lesson 11: The Epilog](outline/lesson12_outline.html) |  |
 | 14 | 13/4/2025 | Townhall Presentation |  |
