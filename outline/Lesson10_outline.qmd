@@ -25,6 +25,8 @@ editor: visual
 ### Core Readings
 
 -   [Bullet Graph Design Specification](http://www.perceptualedge.com/articles/misc/Bullet_Graph_Design_Spec.pdf)
+-   [Sparkline theory and practice Edward Tufte](https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/)
+
 
 ### Additional Readings
 
